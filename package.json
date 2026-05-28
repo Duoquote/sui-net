@@ -1,0 +1,24 @@
+{
+  "name": "sui-net",
+  "version": "0.1.0",
+  "description": "A CLI to inspect the Sui network: pools, dynamic fields, packages, dependency trees, transactions, wallets, and Move bytecode.",
+  "type": "module",
+  "module": "src/cli.ts",
+  "bin": {
+    "sui-net": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@mysten/move-bytecode-template": "latest",
+    "@mysten/sui": "latest",
+    "picocolors": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

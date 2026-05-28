@@ -1,0 +1,2846 @@
+{
+  "000000000000000000000000000000000000000000000000000000000000dee9": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "000115d07579ec8dee7326447e382a667d935ca1b6e2a0faed5c4bf0408228be": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0018f7bbbece22f4272ed2281b290f745e5aa69d870f599810a30b4eeffc1a5e": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "00315207835c4f8a3076a0c801e243962643833a53db2c140ea99d5f836f6bd0": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "00802c52b34423ce62437fdf9a351c8869efd63674b506a5c190608567cdbca2": {
+    "name": "Bluefin",
+    "kind": "Perps"
+  },
+  "00c1a56ec8c4c623a848b2ed2f03d23a25d17570b670c22106f336eb933785cc": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "011840332be097b422abb8336970b0be1d7333df22134cd5c3be9d9a1cb956d0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "01532b5f6e6aa86f1de3091d83db06f274f2177e8e4abaeea6ea39e8d412e4ad": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "01568dcf9aa67570b6fd67b21252a1b8ab34b4987a468454c5d226d9867782b5": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "016b8ce6560f55bfe02abb2cc0681bb91f767107cfb1c9b6e73a6bcf74492a02": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "019fe3a0a4a831515a6801c51fdf0800e2428777b4e29cbc8355b7939a009893": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "01a896dcbf5fd0e74375d58e804518114d6820a21bee97823788fd536ca21717": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "01da1090a6233cbcfbdd8aca6a4b125904fa4ab97d65215a94d56883e9b95f28": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "01e5d38f1f509409e4eebf5d517767676522c4b208e3d1ef985841e5c2e70de9": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "021e521c21f2d8b3973ef276def87e1675d7d215e1406bacba54001ab3dee47d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "03138727c6a5b7aaefac2ad82bd19bd1174e79011ff82eb00407c0aad837e81f": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "0422e3239f174320760dd675ba3835cf4b1c511be4a36e819cb61fab7d5d404a": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "043ca0fb6dd5a60f20513d76aa49cb007b4554083ef8a5765b15e01ce1642036": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "0580e4c45e06e6a60b0500027a42c7bb7cb87163fdf03a98b0b44b1842c0f3bd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "05b81d86deb99c33a46042ee92a0e6665cea64dffa3ad23a114ce08f449b8bdb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0624b66825d66821a57a49491fe1b31bc4f522459051a587aeb43828075f438a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0639250109c8b90885fee0545be44598cc0e3f07fc89c9d00a3d29091c2f23a1": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "06864a6f921804860930db6ddbe2e16acdf8504495ea7481637a1c8b9a8fe54b": {
+    "name": "Cetus",
+    "kind": "Token"
+  },
+  "06873a706ef11d0035e58395fe71fc43e120bef8722b30490d2e5f1857a3dbc3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "071a7e916a27e27f051738783061356551090cfd4a23c6bc44cfd96e6a5fa153": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "074072936c69571d20a36a54c298384754e687532be989cf6487f852de510009": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0755429cba577decc090009348987a89f4fb8397da27a3eaafc366794078af7d": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "07be4837e4c0011a14b2821f62493bf26f3a9c1ffbede99e404bd27df6f25218": {
+    "name": "Typus",
+    "kind": "Perps"
+  },
+  "07cbc7ef2c0ccf41e436827602cbe5c6f7c3fb2b4addca1be83cebed9bb93104": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "07d45ee8fc56ddce3232304c1191f3c0319fa8240305c5ee2231a2da7cbb49e6": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "083b89937db53d8dd797dee3ba431083fee43c6bf5993005886daba19e942fb2": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "08aea3303a84521f58e10872168c52c5166f8a1da3f1d60b88d76b0068dee1d6": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "08e9a7e43abe8bbff4de3289e8782d9e47bc5859a8ff5ba53e39a8bd10712225": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0a071f4976abae1a7f722199cf0bfcbe695ef9408a878e7d12a7ca87b7e582a6": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "0a639c8bf923a251892eb77e46efdfc6eb0ee9724a3ada5d9143d8b89021d4ea": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "0aa212abff1ea21273912720f3031634ec1d65065a1d52eb3140b9d41b45a0cb": {
+    "name": "Magma",
+    "kind": "CLMM"
+  },
+  "0aa360e85a3cf7364c1d823c9a2b978bed9d54369060d31f715e4bd6f834411a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0b5c8df67f800e4d5eff7179ea9dd85af30ff22c1422d45e8e56c05ea57133fb": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "0b8d9039cf3277c272a3c6d129bfee5e812640a7c26eb1c605446881b67275fd": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "0b942a983b140803236424e695a57748d0e8817b3c3baa9ef71f6f228cb0ca4a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0c1e5ff41b4a935959894e5c91f702ca5ac41533b00d53d92067e0203a63c686": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "0cb156ef70df5283540cf0d60a5d5feece6d3536d050c1639348c950a6bb6e93": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0d3cdc0372f011d05d6ad9a56a7b8225145865538ea730341a725deb196f6ff7": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "0dc3c2d728c5906f0714cb4d2445e899906e85b82f0a5c29002b6537da136aa0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0dce876b6fca68b9137bf167b6f8dc267384a41044558cd09dd81bcc761dbde0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0e08c31d3ae48cf2a6bb458f5d19a7f344a125392c6d8aaa6e79c0e9cca4249a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0e0b8b9773e1b46617a89c1a30f545f706db1aed434b6eaec628d431e0d9d463": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "0e2199e947bd5bd24b006fcdca1e5b958655398a5f9ac5b2c482dd67deae5504": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "0e39d4e0ef952493bc7ed315fe142eb5a4dc6456c617d78a8142e9cff270112f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0e8ef99e05886d03e19b8f2dce7b7c637bcf3cdc156f9a10fdd9ffd8e0c6b531": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "0ef0f805710cf53c10f29c4f73e1144a662747e1839689a846e2520cae122adc": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "105ef28e3c6137ffdd85924f968b6472ab50eb8a11e74c426ab19790686cd8dc": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "10796f703ad15da54343e5e9aff0c7e3eb1d7b5f68edebf77b0d0a8bf5171a4a": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "10e03a93cf1e3d676677cd2904b003af1511a2b68127aac333371c930f819cba": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "11451575c775a3e633437b827ecbc1eb51a5964b0302210b28f5b89880be21a2": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "11e15c87fdf254bbb72791d5d404eafc99d92d831d0e63e0fa8ed9491083addd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "11ea791d82b5742cc8cab0bf7946035c97d9001d7c3803a93f119753da66f526": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "12d73de9a6bc3cb658ec9dc0fe7de2662be1cea5c76c092fcc3606048cdbac27": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "12fc0b1791df55bf2c91921f12152659c4a897fa6867144b5b3939a3ea004c46": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "13bfc09cfc1bd922d3aa53fcf7b2cd510727ee65068ce136e2ebd5f3b213fdd2": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "14044dc5ec6391b8afe6c2b1480e032fb2489b27966e68b9c3273343d0a71111": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "14479de10dc3bf3b1b9da9d4f8a8718e1c6a37f766c168dfd2ac8c0d78b776ca": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "14d4abbe04e89cb2516aaadc8747d13ea9a76f4e5aa1e1ae8c00f571f0c840b8": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "150d08ba2252fe523bb794e7eb061a5dafa449426c964cbf328d1b9396be5846": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "1520e07c4933eb0d08d326cc81e458251652335e93ac61e8c7b331e51d1ec1b8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "157468379cfe5616c063ae39a889dd184ad48350d3e08f8d9b4ade22b8e3fb61": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "15c0555d7601d98ca2659a8387d377a81b1e285ee0808484e101f96d05806187": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "16d0d93df242f90fa5b7b9845d21def2e19839114fb72ab190e7fbc13c370eb9": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "16d9418726c26d8cb4ce8c9dd75917fa9b1c7bf47d38d7a1a22603135f0f2a56": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "1727de5223a86156c0fd4ee290aaabaea7f0ffeff485c367c2eb0dcbdfc0061a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "1770b29f506e5f7a0bf2a9e0b8b96d1b703beff21ee6af0a6e6024a5fec51e41": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "17b07de54afb3179287b6bfc93d1b12ee009f01092d4403821db3789110c202f": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "17c0b1f7a6ad73f51268f16b8c06c049eecc2f28a270cdd29c06e3d2dea23302": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "1829f473437d24456825662e5bba97924194b5008dcbb59f6b6a6eb2a5d1a2de": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "183af2adf115f331105825ae63e1d7d3c848d67beb4d60bc36208a90a5e92f4b": {
+    "name": "Magma",
+    "kind": "CLMM"
+  },
+  "18595d85c84f930bb47ee687f69131081b66bc1164d29913bdc5d75ee8364643": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "186d6d71cedd341ad744e40873cc1513ac539ffac860d0c3ebd27ec5da63d9ba": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "18f15b082868e09d4de8fbada0d5436f110bc3b41c170cadc2d2652db9d58209": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "1923a1be88041d64b4695fd2e79f2e2eeaddf21847c4ad02ac4c025bfe0998ae": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "19bd7a85412d38a57816279d9043f4f9774fa6407189c4b16bd2de90756cb439": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "19e12e081e4cf1bb6a3ca53bc9b02ca6b7042426e79a51565291956db7d002e1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1a0c62ff0ed9197e2438eea39131ccc4ae8d28257af254917bd60dda320cc7c7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1a9b4b6b49fd43ddb98ff6dc2195b33555b108316a65d646085a3dae9edda43d": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "1aa069af9b529ab6cd96c3b3e691af47d3a8cfa69cd9320f78cf32b0987e06f8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1c0b49f9469d1da42e6825f69db52e235af5357baf7586d48cd6490b0fff15a4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1c7fa651297f281bfacdddd155d3bd6e4de19fbd51d1642c29ac8fc666029424": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1cbee84d33577823d93e6e05886df33d517323e889e9d449180881845464181b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1cf4ac2d33f75423af5be4dfda43198fd7189d8794642e50759675682b8eaeaf": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1d04ee2d2db5b33b24b72863d3031d345daf56a52ce056eeb3cb3206d2a717b4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1d4a2bdbc1602a0adaa98194942c220202dcc56bb0a205838dfaa63db0d5497e": {
+    "name": "FullSail",
+    "kind": "Token"
+  },
+  "1d8076278825eac89a637b11c8c5fdde767b28dcd666deed6140dfbad0681388": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1d859a27e0ce1adaa474dd390384c6a949d57a8b2506b6a47c9ee8a052486ca8": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "1dc9f34fccf9be93744a4e2c33831a4a77ea119b43ce98f9cca9e9c122e561f9": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "1e3d46ead463132f09fb49b48476fa746214ffa799f39946decfee9cdcb4c3e3": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "1ea2ff1d9d477a71bd4de2d3885a10b597f0842d1026e176c58937499b0e3fda": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "1eabed72c53feb3805120a081dc15963c204dc8d091542592abaf7a35689b2fb": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "1ead8a0d21d4eb446a75e9125c2e53e9c6505c863c05424c6e898ee3415efbe4": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "1ecfacf2f5bfd639f3f658e927ee8b0d9ed9fa3a62cd9fd1486e3f8a273133ad": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1ed1fef522ccea98a4fbd954543d5019238ec89282fbdea9a753e0a17e96fc28": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "1edaf9e706b9f8130cdb8a1b1ad2ca4f4abebf0641b48fd0933a70e14ea56f20": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1ee07392805d5b26a1c248b5739b768d426579ac1f4aeb50152f7ca06d3e2a00": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "1f6c075e031d3e380bfdacb09b44e8df76566e44f332025bafb6e2249bc9d5ec": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "1fca92b59e4203af53919f35a66ee371ba358c58e39d7a3010d9e243ecf65cd2": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "1fddd789abfa81b03da23475237bd66f85ba217e536f3298533707c980db89dd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "200e762fa2c49f3dc150813038fbf22fd4f894ac6f23ebe1085c62f2ef97f1ca": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "2065bdcbb841ea6dfca7e7dbf4fbb2a875aea4a9e185ba1366b2df17333fb2ed": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "20b8b3b4652dd77c3b54f480c779b1b29ed41227191eec9665f0c5d3ebf5fb5f": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "212c5737b097f0e94880917cc146d0e534f82dcb3b5adb87bb766a4d76507ee3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "214a769a1f8d3fe02a63f0075db75019435bbf3147c7868b80fdafcf267f30fe": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "215faf86e0309bf97fd4bd1a65d82db574cac45af952cb2f115723c28e3ad2ce": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "21d5e2291c0c40cad074a702cde333a388fb592b7cf5949dd1250bcd72d7cbfa": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "222b0e07ba49450d113134cf3759fea5b0b719e480c7cb3d49971c75601273bb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "226a1cb396af7b7151492dad26674bbe3fb25c8f61e601cfc752e054498e25ac": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "227f865230dd4fc947321619f56fee37dc7ac582eb22e3eab29816f717512d9d": {
+    "name": "BaySwap",
+    "kind": "DEX"
+  },
+  "2384323e65f54f7a668f8313175bc90d4dede29e0d355928a2f9adc7c6178e3b": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "2394001f2e937f5d827184e10a8b0ebfd5522294f4a0e3321fe6df2bf8b1411b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "23ecc2b1c55a7e1c1c1e5091afee8ffdbbfc7b044d059d536804ad050c0c39f5": {
+    "name": "Momentum",
+    "kind": "Token"
+  },
+  "23f259afed1123d56602c98a51689b0a6ef46fcb57189fced25501be00c77dea": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "23f43c4c84788a2acba2aba37610704197821b568e2c3f0a87fe024231bcd3d3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2485feb9d42c7c3bcb8ecde555ad40f1b073d9fb4faf354fa2d30a0b183a23ce": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "24fe7e5125f5688a75c1386dd128a4ad29158c72985dbaaad52178835f7bb802": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "25929e7f29e0a30eb4e692952ba1b5b65a3a4d65ab5f2a32e1ba3edcb587f26d": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "25ebb9a7c50eb17b3fa9c5a30fb8b5ad8f97caaf4928943acbcff7153dfee5e3": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "26166465ede35c13e3ff7f62cc96c7554854a0a8cf83c3ad959cfcdd2c71223f": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "26bf21a298d81e2018089f1e5812d7b6d944401f1f04a2da1728a972679a1678": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "27af58110be28f694f0da5857a31ec5f9f10cc2abd44d87ff21ac87e89ee3129": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "27b4732a24c2ff79f49de10d11317701b6196365c213f97f225b52caba5c73a3": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "27de6e8eadfadeec16ee67bc1bf3e091cd9ec8f11b2773e6c8f5bfa6d6eddce4": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "2966b43480615c884cf98d551ca34f4cb13e8d32099df1b58fda663a843d75c9": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "299c82fb1535daaf09b6a29c3787118a1efdc908baab0b3a403d63070fbf9e10": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2a492193487239647424d84f22d1f2fab9679bbc8511685d57e6c2f93ad2f947": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2a6161d6a84042531db345bd41ba22a113f43d9bd858a4f807f127936f4d67c4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2a7632ec90deb9185f8b4c215db8baa7f2eecbdafa6ccc32de80ec19f6ea0f08": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2b1e8820da53ff881de69f85c7c8c4f75c9b4bdd2a738b635b43559115a2bea4": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "2b60c081107c60726e871eb746df926723acbef7661ca2b49834ab4f6664c698": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2c8d603bc51326b8c13cef9dd07031a408a48dddb541963357661df5d3204809": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "2c9c8b09b61b70550a840c56118209794c6c8f7f4030d9f899292e3d9cd8a3fd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2cd7ff39b7f4a376ba10f4f5758271bca9dc55fb0e94c95f5713fdd4ddd9faab": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2cd82174a2b34c78bd4504413715f603a2830e069321b61f8e5076aa794033f7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2cea17efed3ee25db5a279484be05fa89bada45cceb12f20d6ebf7d0b6d068de": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "2d0cc5238c16dd9475d86a90bc4be47d255ad2557569b2c3418eac8443d0540b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2d25c227be42b1748f916493e36f61f3b8f42664a0f709e55d4e6887570010c8": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "2d8c2e0fc6dd25b0214b3fa747e0fd27fd54608142cd2e4f64c1cd350cc4add4": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "2d93777cc8b67c064b495e8606f2f8f5fd578450347bbe7b36e0bc03963c1c40": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "2d9aea3dad3d14d275aba0412d60347a39cbe731d8086a6fff944668b2dd2a73": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2dcb91e23b5687262a5451a09c89bd47805986679982baceb56603638c1fe4e1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2e227a3cbc6715518b18ed339d2f967153674b7b257da114ca62c72b2011258a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "2e704d8afc1d6d7f154dee337cc14c153f6f9ce1708213e5dc04a32afe0e45f1": {
+    "name": "Magma",
+    "kind": "DEX"
+  },
+  "2e72a7f244cbc0b637848b493182be20d7459b7fc212811b23b84ef7eb581e18": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "2edc22bf96c85482b2208624fa9339255d5055113c92fd6c33add48ce971b774": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "3005b2a01ace4673f8af040e53a6c012e4838543973ff9a3ac5e71b252103e8a": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "305d2c4f34ebf2358023c3607fecfb1e7cc27246d25cf3d823c5089e81df679b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "308b0e13ebcb716f2f2e1555d74fa217dbc2b5eca843e013f5419fae4d98d653": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "31bc2890fa6d3ba05fc17ef59c86ec1301b77f160d22a2af62790808fcdb3972": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "31bce254a681b5318ad4538473a79ae74c7ebe04530d2d0f05254e39ed359251": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "321848bf1ae327a9e022ccb3701940191e02fa193ab160d9c0e49cd3c003de3a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "32db67540e8be0c078604a0018e4008b936c2a72d6f1fc7a9130bca120784c0f": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "337f4f4f6567fcd778d5454f27c16c70e2f274cc6377ea6249ddf491482ef497": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "33b2f4cd0a68a69241f8d7714886dbe4b63748813dac7ea87d126dd083f25b2c": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "347b833859a487218737de4a5e6b0fb861d37e653a10f44d420279c984badf9c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "347dd58bbd11cd82c8b386b344729717c04a998da73386e82a239cc196d5706b": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "34886772abd15f2cf42f996605e2fc864c36df0de7dc1d700f628c75ed714508": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3492c874c1e3b3e2984e8c41b589e642d4d0a5d6459e5a9cfc2d52fd7c89c267": {
+    "name": "Bluefin",
+    "kind": "AMM"
+  },
+  "34e2d35e9979b5379d9601ff96db2fc9414ba08133e17cd0b78229aa7d831993": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "34ef25b60b51f9d07cd9b7dc5b08dfdf26c7b0ff00c57bb17454c161fa6b6b83": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "35a304d62f17d48df80791d1e418c04bb7c81974439a54fa91f4a06e91aa65e9": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "35dbc37f5ad9d0772de7bcb94a26423013b9c679e1f8eff6c9ba4951e45a2ee4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3602658fde358d27c0fbf18a920f17ad0aad99f912513fe81dcd3725263abde0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "36047d1c56ea5ce6fedd5cc796c3418df8c686d2e9b12cc0b24775571eb7f5f1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc": {
+    "name": "Suiswap",
+    "kind": "Token"
+  },
+  "3686b7b019f33a3f2c95eb0a5c9d15a3ec36071e995a3acc96acf7be43607a3b": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "368d13376443a8051b22b42a9125f6a3bc836422bb2d9c4a53984b8d6624c326": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "36d5ba408da885e69f50ff81d84b6be17761e2b60b7c1688f12d5e7847224a01": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "36d7c12e8497cee9259dd6b0da9f8bbe955134d658a1e3e7c682d43c7a955125": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "36e16a2b2b5072508cee656180592d036ceb3be94cbb76fecbdf96b9ebf65611": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "371953ac3c515695d04d1c77238ba9b0f251564ef8cf4b69d9261027d4f04fcf": {
+    "name": "Magma",
+    "kind": "DEX"
+  },
+  "37315d279ff58d0987ddf30eadb5c0b6939d45d87843d22334a75ccb76d95d6a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "37b230a6d44b88d74077480b55d326a63454cdcc1d5a90b8ee1b00f620fa7b96": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "37d6284f2c6cdeb5663124be7e44016399b1b657bc51564d67ec480bdff15491": {
+    "name": "Cetus",
+    "kind": "Limit Order"
+  },
+  "3864c7c59a4889fec05d1aae4bc9dba5a0e0940594b424fbed44cb3f6ac4c032": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "388c87798024d4d0429bc0c1b553c8586f4cd8dafa3f3521ab0e8dc2111bf726": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "38eff60545e56d3bc1bab5f3efa31f50089e5f4b2d55d77717adcc041d34839f": {
+    "name": "FlowX",
+    "kind": "Aggregator"
+  },
+  "39402d188b7231036e52266ebafad14413b4bf3daea4ac17115989444e6cd516": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "3996731caa20b3369a761099489ed7e0d71bbe1123443e3db132ba603e6be77c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3a5aa90ffa33d09100d7b6941ea1c0ffe6ab66e77062ddd26320c1b073aabb10": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "3aeee81b8b88da7e9b4b22ceca217fc198dac1e5be61e417a8cb7733acb1b8a8": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "3b6239bc9bccfdc6b702fd971f5f1999a724d6335f0146d7d5a0ff8dcadcefb8": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "3b68324b392cee9cd28eba82df39860b6b220dc89bdd9b21f675d23d6b7416f1": {
+    "name": "Kriya",
+    "kind": "Token"
+  },
+  "3b6d71bdeb8ce5b06febfd3cfc29ecd60d50da729477c8b8038ecdae34541b91": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "3b9f8d381c22bfcf7e4e6469f57a4d10d2087bbfae05248650b08fd5dff0434d": {
+    "name": "Cetus",
+    "kind": "Limit Order"
+  },
+  "3bcf9f930d55a914d160838ec56215e0faf1a1f342b718b42a90fd885f116f2a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3beedf5eb385f2ec5d77df5c5f8a7bf9a4b908908a5424262acf3830595685f3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3cda100fd04db883a9f8cd3976d94b9f8eca3843614fdd45e7492037938e7850": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "3e5d5da8b2fb8fd13cdc9122243a737b15dca24f76ab5bf090b069b8a46074cd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3e5f8e62b94fe43284b923bc8194332a953bcc403febf5f1efe5c9831d949bec": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "3eec6d02cc5f2bc56afc3ac386212ca70360bc54a1703a1e8e3d303f9ac75faf": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "3fb42ddf908af45f9fc3c59eab227888ff24ba2e137b3b55bf80920fd47e11af": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "3fb8a3c2c95cec2a643e1ad249c4ed05f55e2168de99f6775984efa29c5bd668": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "40258ff101ea096199b9da6086416c7d9f03100146878bce13989a95c26289df": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "40e06b6a0151b3a4feab9bfb168f993b519b363d576f7c130211501f92591b8c": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "40e457bc65a398d2db7026881358fcb7cfa2f1bb052bca41f46c55a1103f2d6f": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "41265bcb61bdbe3ddc4e36458b899c5f47bff5b757ba2159690a1bd4db2b444b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4142285db093ba0cf0623b3cbc07372fb4f5ed00af1fb62be6d55f49a42c0b0e": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "41c2ce88ae16d1cb8e639a792df065aea5c08a90dfd7ac5d3c5cdc4d93c8916e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "41ff228bfd566f0c707173ee6413962a77e3929588d010250e4e76f0d1cc0ad4": {
+    "name": "Kriya",
+    "kind": "DEX"
+  },
+  "42c0b3a4c80700969663ccddace8c402ad3fdf850f5aa9020a9a0c7094870160": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "42e80880109d67373e4c7ca1dd4d148dcc71ae7354b2e07f642165bc32ac472d": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "437aca029849620c0d9fe4b53376a31d5ad631201b81da6a353310d5a7256b74": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "43811be4677f5a5de7bf2dac740c10abddfaa524aee6b18e910eeadda8a2f6ae": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "4493552bfcde20ae42bdc16b215e4060974d439460d10c1fe19ed4617231871c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "44bb378242396440e1fd6d7befcb35bb8df5623605db5d79313924ad5e8946a6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "44bde9069fd33bb05da2d59392542f8744179b01d07a60b4ccee6c70c5601e50": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4501a8fa64af79e4a1ace9027b67193e10d0e9de940ba5c59fb0a6896287dd38": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "45d8b5727430ccbc1202de8fd841ca23d3c49a6ef7968286d6266e1ac2c9b4a3": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "4658a0fbd9a234dfc87726addcbe1a602f27ce4513ecc1ec99e6d973c7bfb101": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "473815eb70c1009d0ac54614318376ecccbd0585ba4b2966e1a3a52309fa5e6c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4780f708c7ff01a1048bf22db11b2ab957b8812f8c17e84a7811cac3c33ee451": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "47a7b90756fba96fe649c2aaa10ec60dec6b8cb8545573d621310072721133aa": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "48473bd47bf0de3059552a2624fc67c5bcc97e74739ae61cd1616c0ceacf9c6a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "484742ad0ae480c5d23c9344b51f0d0fc60dcb5c1a6b1a4b5b454e14d324ed3c": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "4848e82bee3f57ee838f10496a1718ce0b90df854497796cb16f2fdb4f18fe79": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "49d87b9af35c4fef28def2cd65884aa9c49bb4eedbcee647f4dafb5c8f36ba57": {
+    "name": "Interest Protocol",
+    "kind": "Token"
+  },
+  "49e9f06c58a36830fe0d83291f002012e72b00a4ec9b3a6304c40fc5712bb6e3": {
+    "name": "Magma",
+    "kind": "DEX"
+  },
+  "4a35d3dfef55ed3631b7158544c6322a23bc434fe4fca1234cb680ce0505f82d": {
+    "name": "Magma",
+    "kind": "CLMM"
+  },
+  "4a4f7fae39b21febf6a5871b9b1b0a0c342aa903af8d5ba4e2c6b9a604a7f694": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4aa7f377d4f61b9b8720d70634e15f7d34953ea7eb7986f50464c9d2231e950a": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "4aaca23745c9b2d5d020bed960030b3e7edd5425f5dde53359e7cb99967f8b94": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4b0f4ee1a40ce37ec81c987cc4e76a665419e74b863319492fc7d26f708b835a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4b119d8c0e7c87a1b25df8ef3646a5205f1a20811930f742656e7db97dd2e3f5": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4b1d7919b0c7d9b43f54244404006d916c7d0d86900ff18f1273d3758efd80d3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4c28ee1609b15ad23a890de020952abda94541b5acaaea54295116f1d5a2f27b": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "4db258013df88d79fde54eb0ecdec2bb1865c4585a897d7c1c9d20b6b768a71b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4e7c4ba436f8fd5b3c6bb514880ccd11c5109c83c45b5e037394b94204dbbb80": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "4ef2624c471c4fd3f9500d6ed0e57aaf27cab6b95ac07127539994a206a87977": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "4f64f4d012a67997ce8a9a435d2cb8bceb07251d8d392a4963ed977198f90164": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "4fb1cf45dffd6230305f1d269dd1816678cc8e3ba0b747a813a556921219f261": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "50fbe5a48523e65ac89483f8f27e329300cfe546162f91e4ebcce0e44e803f79": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "513e8696c4a142444a5f727046ed1ba627e51d17e9a0b99d0e334c47d184a9a5": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "51966dc1d9d3e6d85aed55aa87eb9e78e928b4e74b4844a15ef7e3dfb5af3bae": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "51e53b259b09233f0fd7f7326965a32101b6c60560c32da8868b6877581a00f6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "52f7582bc5c0f1accb4dd1ccef9b836bb1aa1d0b54746a1ea3461a334f86952c": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "533fab9a116080e2cb1c87f1832c1bf4231ab4c32318ced041e75cc28604bba9": {
+    "name": "Cetus",
+    "kind": "Limit Order"
+  },
+  "5395c48f9bd7ee96586fa1e10f22fc1cb2455f83994ca919aaef51ae4db40242": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "53e48ed6b77e63628212b4aad997f3c9f7fdb8e035216a2af2f5138db9685bdf": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "5421d2c52abff3e21146d5e6049d80d26e0428e2ac7a0eb42b234804fd9fcc9e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "54608442ef0bf48def6cba44ee915b69fa8aacdef3d314b1925ee5c70af8bf08": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "551e619a2dbb2de013a6660d269c78bb526d0f58e6354f62f3b6c61dac89cd4c": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "55385931b718c0d5a2f6126eb1c265277d548da811e820710a479821ed415914": {
+    "name": "FullSail",
+    "kind": "Token"
+  },
+  "55458eec635b3e1a387b201bbde1c51e40eadaf8ec0fdd76eab05ab243017946": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "555c19db27f48d6392423061d445e82e308818195e0f041279ffdb2e5df62007": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5664f9d3fd82c84023870cfbda8ea84e14c8dd56ce557ad2116e0668581a682b": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "5673fd16e28130ea7ac38006c7d6a43cd775e0a0b0faecd67b51d1cafae5ddde": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5687fc97b7a4adc65c282f1e4d7d1154c30a27cfdbbb9571481dcbacb50dd754": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "56c2ba58fd9b89ef714fee1c8349f888f387fe6db8e5466eed05d48aa81f9b64": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "579083167575c19912d9f6040e9c4664006cb372dba138ab62330b770165b81a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "57d8b97d31282ac3023b392badbbb34584a5d27ec41ba806328376357347ea12": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "585381670c3d7c1f78caeb6c803f449442659743f4047a01b942da08bbfa19f6": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "587614620d0d30aed66d86ffd3ba385a661a86aa573a4d579017068f561c6d8f": {
+    "name": "Cetus",
+    "kind": "DCA"
+  },
+  "58e5de6e425397eeaf952d55c0f94637bee91b25d6138ce222f89cda0aefec03": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "5939a49fb71627b4855bdab2481d7bb624054a74f26f6e7d0ca0ea82860a5d6d": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "5a3a90aa1db352db0a17dbee68129a9c420ffc7686119657318702c6caeac18a": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "5a5c1d10e4782dbbdec3eb8327ede04bd078b294b97cfdba447b11b846b383ac": {
+    "name": "Ferra",
+    "kind": "DLMM"
+  },
+  "5a8d167ae1279043c73a8a0d383c6a07f20c5dc3c1309ba560f89028447dc284": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5aa58e1623885bd93de2331d05c29bf4930e54e56beeabcab8fe5385de2d31dc": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "5c35deb22849011d69456f37aaf4d90356e0829545d413039212dafa5b1d70b4": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "5c45d10c26c5fb53bfaff819666da6bc7053d2190dfa29fec311cc666ff1f4b0": {
+    "name": "Interest Protocol",
+    "kind": "DeFi"
+  },
+  "5c6648fb219c046256488486d23d4af7bc562d5ab5c382e1f4b558066a327fe8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5cb7499fc49c2642310e24a4ecffdbee00133f97e80e2b45bca90c64d55de880": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "5d1f47ea69bb0de31c313d7acf89b890dbb8991ea8e03c6c355171f84bb1ba4a": {
+    "name": "Turbos",
+    "kind": "Token"
+  },
+  "5d6995768634e479b4e35ec4a801964a7160117d9771d3b346938cd8e90d07d6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5d7c7f59ac2b12325b73fcdc850e80b52470e954c09f0c57d056b0406d236890": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "5d9acf698ee42cb4267a099845c33ddd2a4f98e931ed2009cc1988cf4d4968e0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "5ef2a1bca239764c8381ba26b758833060eadb8903682e4fb15e58c6406e2488": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "601a9f900ee01f6458809a881bef6115cc65762e2bd1fa022ea6bb6111862268": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "60e8683e01d5611cd13a69aca2b0c9aace7c6b559734df1b4a7ad9d6bddf007b": {
+    "name": "Momentum",
+    "kind": "CLMM"
+  },
+  "617e4a000087fdb499a4f7f1955812eebdd6078db31cb344f3babcd2b77350c3": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "61b7a30a432a59ec5a0b497fa6ba61495b36bcbd7f5cf7a72718955699dcfa46": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "61c9c39fd86185ad60d738d4e52bd08bda071d366acde07e07c3916a2d75a816": {
+    "name": "DeepBook",
+    "kind": "NFT"
+  },
+  "61d410861afe1bd7844de46ef75fa57db9bee53b321f19b6cf17a6adaec0e2ea": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6219e52e9a9d2cce4d0e53f27a9152a827f3572678e5bdec85f528e3e175e479": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "62412b7268c35f3808336aee57a52836501f40b8ba5d936f8ad275e672befd04": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "62a97a4997a54999ac817621c43433c482392698061c9d6aef867cac5d30d838": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "62d6b59a4711ed9bc10d6429eba9e4154614539029c06c1bed3ee93f400472bb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "630daca7fc13740d6d97afc11c037ea4f46cdac80ca62a86d1a1c98d978c24ec": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6349ac55b01ab8d2e52e9bfde599261361e760fbfc13975e7d9e76b5bf267ca8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "63f15a8a064996b8a7e4d1642cf65d1cfdc259dbf6bec3a1b36734b92f982614": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "640d44dbdc0ede165c7cc417d7f57f1b09648083109de7132c6b3fb15861f5ee": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "64b1c57ed024ca7b952fea71b98a9f229746de402dcc083099312be76ed84ccf": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "65e7bbfd7e4ab08d187eb70c10009fda095b0e2f5181c14cff729ea891969a44": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "66d7bfb7ca9002c4e0a2a8bfb763ca224011be912f24025a52a4e19be0cb0ac0": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "689ac89481886011a660941a512869c7f986f3c04a1fe8b3c83cb727b05a7293": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "69a2a995af86d0c68fe93ede7a286d04f1c4ce768065ea9cb382dc4bf442b91c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6b82b1ac4bf420f649c052746594a18c5df0c9fccff3a98d6856a16ba4f4e47a": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "6bb88dc424633c56efc921b52c3be885280de5b5776a946f9777b087504fa3e8": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "6bfbda157eebe9680321a85bccf6be8f89146d145ac705363333abb962f01147": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "6d70ffa7aa3f924c3f0b573d27d29895a0ee666aaff821073f75cb14af7fd01a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "6d8b36a77431c2b1d125e725a603250d86c7a3907d16bdefd92fd65dbc9c853c": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "6dae8ca14311574fdfe555524ea48558e3d1360d1607d1c7f98af867e3b7976c": {
+    "name": "FlowX",
+    "kind": "Token"
+  },
+  "6de05093e49cd21c171e28b9ab37c71b39a23e9e8a5a2c6e0b383638f267194d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6eb0c5a7deb53fe42162e21908b498879f6580da6f9939e4f8a547772c6db438": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6efa88535c7778bed05db65ca7a7b5dee111c9d1c51c18711f3763089e41ddd9": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "6f48a1ba005f46fd0835fa3e077b7c8c46a0982cca9057658c6d75a9ae970ca0": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "6f5e582ede61fe5395b50c4a449ec11479a54d7ff8e0158247adfda60d98970b": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "702301e7c6ca527a6f6a83f12c5edf2dcd6ec7a23fb5318ec86d88282eab7057": {
+    "name": "Bluefin",
+    "kind": "AMM"
+  },
+  "70285592c97965e811e0c6f98dccc3a9c2b4ad854b3594faab9597ada267b860": {
+    "name": "Momentum",
+    "kind": "CLMM"
+  },
+  "7054749ce12423ee08a09a9f94166855e423e9a24396596357b5d438c9ee617d": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "7054a302c10473da8786e5821241a2cef125d7f7a8439de6aab33a5bb00076ea": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "70590515a8ca9f43a4ec04cd59d170c1fc3750aa8c9ab525ddffa2f372762941": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "707af78b5a8f514dd16e503333892503ba836e6608fcd5282167de1a34dbf1b0": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "708bf175f5a6f365dae45ff7684eb27e0597dcd0f142ba1999587825091c134f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "70968826ad1b4ba895753f634b0aea68d0672908ca1075a2abdf0fc9e0b2fc6a": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "714a63a0dba6da4f017b42d5d0fb78867f18bcde904868e51d951a5a6f5b7f57": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "71652f59b5184684588dfdcaf4d0ef0af597d5652095c24620e93433a019caa7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "71778052366d5f56a9a8bad26c08cee631d4f14ece2dabb4d64ce28749d7ac8c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "71a80f9314887b45e8bfafe9f31025f504f38e735eb3c5ff03d39c7d736fe38f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "71d5ea32e0215a0dfa3fb863bffc2888c2afb5f45bc710e14e6f43761965ecf4": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "720f861bda572e891eb422c117fb7224c0f91aaf69b655f6e40bcd68f0edad41": {
+    "name": "Haedal",
+    "kind": "Vault"
+  },
+  "721d950e57259cd97d41010887ab502ee7753b0a3deb4b6a80099aad0c833928": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "727dccc75f836261bb53de8b13f84d0cf1817e52230b8160d587e836d3b9f719": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "72cff6c9853237f97d28aeaa2c14a2258a40321d592570bff9ccafc9a3589294": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "732f66e6e97c0f6b7250a5f43dc3576e225ae6e7578862a9b122915f6ff63988": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "73cfd0703fa65ce89b5928a1497b5de3db5648659eed7e3feabba58db0fd3ea0": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "746819da0540dde6ee9e600b45af142a766f9c31b93f5ea7400b123ebe28e5ee": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7511f0eea8a0d0f27c9898f5521d0965ca28bf7632972f47acecc9395a78f6a0": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "758c5a79d4f788364303cc547f44a46a1622318073006937451e817c0e682c00": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "75936ef96ffa5e4c8f55430d8f07b854ec72c2619060257fb78bf2bc3a2dfc89": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "75b2e9ecad34944b8d0c874e568c90db0cf9437f0d7392abfd4cb902972f3e40": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "75df04e4879ddf659dd04d5d6b243dd30ec5214cf88a7d40035ca3017142de06": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "764b8132a94d35abc9dfd91b23a0757b2a717d5ecb04c03098794aa2a508db91": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "7677c52794bdf0f8c6c6e7c38d584e675a04575f5f551e880c36d317fdc5653f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "767adc02b20110c38dedbd3e3a0ba99498a3ded20cbdc8b0f1511505bb06dab0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7691f5109a54a0d5083c0c20ce96976bc4c153a301211d03a991d21338648f14": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "772b3d9c5d170f8225a231fa4f0366eef608117099191d316482139c2bc223fc": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "772d8b13a4fe0ebdb5e72983033f5a19062942db95c1c05bef01f77986c8cb84": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7796be80dcd55a16b467d42cdc814e6d7260c1e5031e085954116ddaeadd3696": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "785248249ac457dfd378bdc6d2fbbfec9d1daf65e9d728b820eb4888c8da2c10": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "7901c250eae2a521cd011d4f36c553c054159c4e60ffc12423a77de6e70ee27f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7a08bb480c62c49e0cdc0e6f2c65972f4cb21977aa69e21a4b91c6af945e160e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7cdd26c4aa40c990d5ca780e0919b2de796be9bb41fba461d133bfacb0f677bc": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "7d0ef2da63f62ad6af72f17664f3f32e9e8de73ac3bcb59012294a7c5c67b3d3": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "7dab89563066afa000ee154738aac2cc8e7d3e26cd0b470183db63630ee9f965": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7dba8e74b5d512a3c3bd8a1f7ef111fe9f624ddeb935635385645ca5db1f7850": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "7dd8312eb2b74e5bdbaf0125947baacbb2a569e2a92867bdc55e93d049655edc": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7de806a4277bc31aa12afdce194c38f89cb2f171539a426375dbe730db2d0221": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7e51f206a703b8d5e8d434b980b471027641fdbdc4d64e0ae1913e9df06bcd3d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7e7534235e57597079a875bf7fd4a60e3725b8fd346ce915c344992e97ab535e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7e945ee2a6cebb3a8308fd3b98a9bdd1cea51f64e6e3bbd33c6e881cc6bc12d0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7ea6e27ad7af6f3b8671d59df1aaebd7c03dddab893e52a714227b2f4fe91519": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "7f61aec046fcdc8b3739a87c7e74c161dce6167788d627a2de781d1e52042c00": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7f84a2d59d2224ad923116c3be208b0f1d1e210ccdbd74dcaa8df157781342c0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "7fb074a648b8521f65136ac701e94abf55151efc26a39cdab589fabe92285535": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "7ffd93052a90d2e89780162de45a4930bb5734264358d1d9a82c0505215f85b1": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "804085ca4defb399aadf8beaeac93451f3e2ed8c6408dfaf3c9ddc7f948bb70c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8076683c7d36dc8dd2cf9bf08fb50d867a89145fe392447fb8a9cdbed0f4f5f1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8093d002bba575f1378b0da206a8df1fc55c4b5b3718752304f1b67a505d2be4": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "80e6e13fa97030984f871dcadbec36bcfe02a51225fca97ba60d32ea24c6f0fc": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "80ff0830313b36bb65ab927af811037f8b175d6e83c43f906b8f55d9263eea99": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8112a07f633a8e4e083ea399f66453f94bdb53febaa9ca7f443415759c6fd5f6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "81398b9385545e1ed051092d990159a1a896bceeb796923ca43b6c9be96c83f4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "81420bd3231c91485250a92bdd22bc00e645ed2f3688461eec1dff3d78708d9e": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "814b5cc01e91cfef7913c8fd708876f46d8de1da7d997e8e536f70f19ce1f0e3": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "81ade554cb24a7564ca43a4bfb7381b08d9e5c5f375162c95215b696ab903502": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "825ba4e6b7262e44d801541d8335b24fe016cf7ff421c90cc1fc45cbb16e6b67": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "827f92392c08e8107f3eb17bd066130b0240598e3a960b23436217a97f97ffa2": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "828b452d2aa239d48e4120c24f4a59f451b8cd8ac76706129f4ac3bd78ac8809": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "833a64724a500ad978480083c048ecc802fa5f6c59f622baf8b9531c3dfe8091": {
+    "name": "FlowX",
+    "kind": "Aggregator"
+  },
+  "83a1e6784a74929c8b9ccbca224bc9378fa1ebec04baa552d96025fabc39834c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "84d1ad43e95e9833670fcdb2f2d9fb7618fe1827e3908f2c2bb842f3dccb80af": {
+    "name": "Turbos",
+    "kind": "DEX"
+  },
+  "8508fa6d4c0687fbf9e45ad6eefe70c552100a3c5874acf9e0a4b64c99e58d62": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "852421126b3e3a2c139e274bfe7f9a9390aa54bfabeddb3a91f4198849bc60ea": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "855eb2d260ee42b898266e6df90bfd3c4ed821ccb253a352c159c223244a4b8a": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "8569b7efebec65c73b9dc15c5ac2a9542870d286fa79a3feedffbaa94ed53002": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "85c266fb800299d11f44dca9f9ea8d1d0eeff96d0b42b2502f364d91193bfb24": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8638b586ad122d2887d0685d1996a88adc1b7a8a81906fc7f68b25dcbac25cb5": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "88142be0f2c6b0150980109a7386220b4c040a5c4d9a16d5f7dd0bbd0135ba12": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "886b3ff4623c7a9d101e0470012e0612621fbc67fa4cedddd3b17b273e35a50e": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "88701243d0445aa38c0a13f02a9af49a58092dfadb93af9754edb41c52f40085": {
+    "name": "Kriya",
+    "kind": "Farming"
+  },
+  "88d362329ede856f5f67867929ed570bba06c975abec2fab7f0601c56f6a8cb1": {
+    "name": "AnimeSwap",
+    "kind": "DEX"
+  },
+  "88f64d0f59a37c85fc8f2045e968d936ff74ccc3362a03738e65ceea2b3f115d": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "892a5846a4466eaa68edce2613d48f880dfe3caccd47467a8ba718b2ad89cdac": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "894c344135024be3b91fec9d118cba2ffcd705088325a1fa1e777d5fe93b224f": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "8a2f7a5b20665eeccc79de3aa37c3b6c473eca233ada1e1cd4678ec07d4d4073": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "8a3ed4709d9d10796e61570024da4042352c660d63766f572a093e35a9b00523": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8a84007293a1ecd914814869f3cf3639a59dd7c8912feeb6936dafe7bfef76e1": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "8ae7f5d962cb430189545a3a0a25526eea1e7b1498f881fe3c6c822b88cd813f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8ae871505a80d8bf6bf9c05906cda6edfeea460c85bebe2e26a4313f5e67874a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "8afe705f8389e1281476d26032033a54da81d44b9af2c25fb51d80c6577014c6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8b009ac14a8401a270ba4e52341f0d141acc690d0cd82fd66a0c632ad64af22c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8b34660be96911d07088c754a8b759f0c59626936a002789b389f82ec801d3b8": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "8b3ddb0da6342e36d5423733cd0cdce5724f0d04601aaad3bff241975c23af88": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "8b4c32002510e236c6e10876a5ce4bbd11a021125afedc2611d0d8f048181d9f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8b65b817e7d819ab810bf50eaaa521ceea39d85cd46ab58180cfe287ce6f8ef0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8bde4eedabbdaf0c4c463c4eb35f00456dbac5fdccb94ce9c2d7a77653aa481f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8bf2091b0c6abe0531a4bab6435b147c3a1384086d2a8c43b85b4d8afef74aaf": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "8c36ea167c5e6da8c3d60b4fc897416105dcb986471bd81cfbfd38720a4487c0": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "8c9ef3fb4a4cbcd23e9f82dda664cb23753bba69b50825a6465b1356b0d91e1d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8cf8b87035b94486c14860c684737ba17fe97d0fc7b734d6cab3f8660339e001": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "8d389fa25cb08ebc5e520bc520ed394eed9e62b56b7868acb398bf298b8a76f3": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "8e9f45e53385525a1bb0cd632dd7009a3218582d2161eecc3eb66d821a4d0451": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "8f608c247f09e7fb7ba222fb2843c6942045dab103d79a123c7fdcadfccddd4c": {
+    "name": "Typus",
+    "kind": "Perps"
+  },
+  "8faab90228e4c4df91c41626bbaefa19fc25c514405ac64de54578dec9e6f5ee": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "90398fc9b601db0ac4dec67b4aa95231841029c8b0a5554a4d152e2c9a5b4f6b": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "90bdf23f21fd1c48c4d8af1125208143eedb33cddfe02f787a6abc0e3f133b8f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "90d05c94e816f601d2f84deddf83e94feed39afeac2f1e60f99205427b07cca0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "90e18bdfa7206d5d19df0eed869203812b608e50d07e3a49b9e9044fdedac443": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "90eb795d0c923350876f6aa9acfd2e9ca6e239f89ed9d469993b09535f34708a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "911e7e738522c2c58f36d7059713c4d43a0d293078a54cffc598bb7c01dc6289": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "91235d393df2d32482897c6c7fef19e81f8a2918229f16d7711a4ad18367d0cf": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "916eaa4468870fac366464ca82dfc8e841a9c7f6df7e2922aae35240da71a733": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "91bfbc386a41afcfd9b2533058d7e915a1d3829089cc268ff4333d54d6339ca1": {
+    "name": "Turbos",
+    "kind": "DEX"
+  },
+  "91ed08cb870f3c0be3649f9a3e688cf89b0f1c298f597679cf66df6aa6af1a23": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "92890696604dacfa9c59d45d9709185217c7b00f42807044f934e3f0b8a073f3": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "92e308ddb5f04159c846b5f7172824792bbf7674177c62aa37a903412d8c9165": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "92efb523574a0c60b0f5bd794b2f5abfb26f5ddec3818dde8336abb6e0b07c21": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "936e250c06624db833f4118b6cf3166859dee868d1305fbf6c4ed064c939d9e6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "939c752ab336fa6e0e3e241ab14e1e20d56423e6e69f6b61a0f27a187aef4082": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "93ebee2837c208631bd49eb0ee16af9381ae3175589302a5183175540b9e4cc3": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "94369b950baf96ad8fe2722e866fda5a3d6a15a9cfd2384a63de74d1e685fef0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9437e9dca1d636007c463b3451e5415b5c10317bc51326e8cbd1dff377a2e35e": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "9459e2cf4e5506ddffe604fddbe04259bc0efaf945fc96ec32b003336a553814": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "946d188d91cabd4fe15ef763e463a6738db1965814d3fd790085b4720cf90e28": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "951a01360d85b06722edf896852bf8005b81cdb26375235c935138987f629502": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "95b8d278b876cae22206131fb9724f701c9444515813042f54f0a426c9a3bc2f": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "96350bcc1169d524b1ddfa8c35290e4fe3034587bb469fa3865d5d79958b6159": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "96356d1cfc7a4dec5bc0171f085ddaf1f650b1c6c412f209518d496c8ffed212": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "97d7469b1a1f24fa45fe50e9bc144c34bc4e101c84b8b070b6fabcf4c668419d": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "97dc7520784992b60852873fb62c2571231350c446aba5980b1687e005b45d39": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "983bbab642b886009b02458b7cafa2bb6df6f38439befd6f8b8ad7b4a2ec3273": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "986c77229484e3c376972f0cb66837ba361f9eb78db39c196f52cd339e35251e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9890eca0da01697ddfdc2cd4b34def4733f755cc3de662f689ab6f0763ca6f52": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "991a8ab5ccc7af04c5d1327aaff520a074e1444bf7fcde2fcfcb0ad58b9c2af4": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "996c4d9480708fb8b92aa7acf819fb0497b5ec8e65ba06601cae2fb6db3312c3": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "9b110fcea19c331b087af5c5fee26206b84c0dfc0c77808322feaa321f7ae5c3": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "9c12f3aa14a449a0a23c066589e269086f021a98939f21158cfacb16d19787c3": {
+    "name": "Momentum",
+    "kind": "CLMM"
+  },
+  "9c241ed0eb09dc5173e6a1211e2836401a5937ef847073c17f115360c5c3d49f": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "9c907e9af7bedaab3382542f342cce21ca95fa72bedcc887edb478d17f8293d1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9caa34a479ff313e20b0be665540bf8b10192650a7886039fffdb449585c48f6": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "9caccba6a5e9570a7cd712fc849daff8a0290874d4e4bcc046391b9620a253c9": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "9d3ce6fd9f12caa8f8f419f498397657da68b2d6e8684ae56cc308a97ca79c96": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "9d7bdf774ce876c3f3af8e6133360ea151fc44e1cb1ee2eadba078debadeed1e": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "9d876820bc56be7d62f05b2ee358bf346a8b2900af853f02d608b4a9da80f45a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9e69acc50ca03bc943c4f7c5304c2a6002d507b51c11913b247159c60422c606": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "9e73e14464114df08dc7ac49ddb2ad7adc1089c0c2671f9ebc2100166a89d906": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "9eda9afa0b42bf908766c42d02a549c271d7d0ae02c8c58c5075858f8f4d3b69": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9ee634c7e78b7b5132ba6ab56f30b51f4feb2b517eb685e5bf5ea1dc959f2fe1": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "9f854b3ad20f8161ec0886f15f4a1752bf75d22261556f14cc8d3a1c5d50e529": {
+    "name": "Magma",
+    "kind": "Token"
+  },
+  "9fa51767c9183ef253a9d93b3b64964480c384b1383fb3da70f2938c3255cce9": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "9ff0c50083cf24e9bdf08c640ef140c6a3880a08c6d6c7dd64b6247b31d0ee83": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "a00e1424c9eef6786dca30b2e2dcbbf75af10fef2ae2639e064af39abff59fa6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a0a5f1c9935d3e4118b74b12f31e1c47edd391e643abfaf5e51960db61851ed3": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a0eba10b173538c8fecca1dff298e488402cc9ff374f8a12ca7758eebe830b66": {
+    "name": "Kriya",
+    "kind": "DEX"
+  },
+  "a121190e829652194115fe8a6682b97118d5b306b12600470b134dec8d835e75": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "a13447019cd982d6bef91cf7b46ad384a52583b1dfc2bdecf31ef0c4bd787a0f": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "a1ebef7e0f2c4e5410314082f9bbae3e45b8ed217804579c20fdad9187a6d642": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a216988d4f1eb4a9cc067e3e44765ecbb32833d6e0cb19e914ecb6f44dfb518a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a235e50f9eb9b9a869b343d9de09f54038a7ac39a5d9cf784a3a7bfa6819a3c1": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "a2d8a4279d69d8fec04b2fea8852d0d467d3cc0d39c5890180d439ae7a9953ed": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "a2fed1418f194e9d6b92474fe52a7a494a20d9690db652383bc9e2a72a4b84a7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a35b5c1900e4268301aba201bc71eea6a60819f1c91170481e3bdeafcb5e292e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a390965beb1f120a469183ac10ccbac83e78dd7f505e9dcc803a93c7a079d9fd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a4544b52b40e44e41d3ec2d13a9b112b6d0b199641ba98b4664da2f841168ce5": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "a49729430abfbd1750b22a3dd5d7f303f4e7daea42d3921c111eb592d5fcda0d": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "a4a42b531159f7d5ba5121018339074eef026c0b2aaca38546ee6e25d41a5eaa": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a4c6f46bd6b456e6477bcddf0652e0d2d8fb4767e306533e6e885302ee28cfab": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "a4cf7a1b2360162bfed6871ae8c25f133f3d09fa939c0518f1bb30d7e4f7e75e": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "a4e7381b399655bfb3f2d6fa54be22905f6d01e0db0f963fe9df4eb9fb3f653d": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "a5d1ebbbbf63da3a5db857ee7527701f3e6cc978c34792d1372efc249287773e": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "a5d8457e049c8f2a04b7b47e925b200f457e57016aa158f050a931c8ead99fe0": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "a5eda33c0829a546b55fdf0bb1ad88175df00e1c72690b79ac966c49082b9834": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "a688dbf292c898e36e7dd749dfe01eb86b9a88abc2cff329d12b96ab563d596b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a68df202f3d60d4309f9ed9e9adc4f78b522885546a98d4fb9b601fe546f5786": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a6c86f919dcc570750320c3cd3d775b449f66947a0570f76ebd4035c21e7a85b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a72f514cc057f12cc30d99f0aacb0d7b9e9ae9410b4a9dfbeebc39a950f1632d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a73893381457055cb4c1ba97dca9ad611acd84e2c9eada7a9fdff9d40a0b1591": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "a76499eda1d37751473de5f30e106f35943ada2f6ea764861243e7f5aa5bcc97": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a7bedeaa28ff3defa50d012812618178727f530bc5a70af5d03fc6424a984cc7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a8270813b13f0451780e4f1cedc8285201e9906eff965dca9e2bde95dacd21b7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "a856a9377e07875eb7adb26615d5e9ee770391916b03210634e86dc88e0ad893": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "a939570fccac7a6f9b6a835c70574b69976c400df5fe947a6ca8d925c408466b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "aa3dfbe6eee3b26c2938a2a03c038e70074798f19aaae695957ae7ad6bfbab04": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "aa5475c8c7ab8e98a94b2cacec74bff3c4733f697a3c4210e0220806698f1d1f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "aa8f7eed055276651344e59936cfbf1b6ec079411c84d71fb6754a277fb7f58e": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "ab00968a6f9c478f6555701c1cffeaeb3356a61b5f6b92dd51475aa38e282927": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "abbd278f738affe762e9df4765b3409bb1e86a355a4f611ad82b278c18108918": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "ac2031524af620372ddd9a63f79d831cab64d6133c99e48b984dad38e7e4b0b6": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "ac5183c22b82136ca13cbf73f9036dac9dfbed4457f959b6757f040cfe7bb9fd": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "acc927d938d14432625c74b5b95c75b286905ae2f06fbc35bf260c531118c6af": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ad12120132358e28f014dda7d746498c96fb5d31758a1e18785a35ced4fdde9c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ad3173f38fda1949fd785f8b1c0ea5c8e086d6192905eca5340a6ca9e481a68a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ae9c208cf58fd5ba36737c9ee5dcfa7f152d0fb5a5a99eebb7c881ebc2fe59e0": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "af238f806cef5e86018f9b7243f46b960af84d32a90edb551cb81437b00c1927": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "af44818c67a878b9eba0c63186b00e80d9fc3d1e2ae02f00fa3993b0e683bff3": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "af8a9d331fa0c2362506803825bcb6092f8f7fbe553bad4423724159c5160a77": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "b089be82b82b94c9fd7a41e8a86895cd84461b1af51a06b988951a00bd3b9b8a": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "b0abb4ebee8e864d6e41c55c81790b9adf6af6384ff4883011001ceab6c67081": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b122c8ccbdd7e0a4c6d8fdfd7c1953b020cf073a4b90e5fa63f91081f8e4a6e7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b12e58dee672ad3161e023ac2315e2d39866fbf0960abcb1ce755f24f5578b59": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b195bb6007124514cd4d4872168fa1c43bb8b01cb8d82518ef1bb1d78405000f": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "b1b77b7f5f13b910e8cffa5417e67d2a407e69b643956d611b9f7da97a2f1145": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "b1f74031c43d3e83280698e89d825176f45aee137a0d542207d4e0e8e6108ce2": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b20fbe0c6ccefa73c2e5573cd6fa95436abd03289464a03aa88620a950f19ba1": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "b24b6789e088b876afabca733bed2299fbc9e2d6369be4d1acfa17d8145454d9": {
+    "name": "BlueMove",
+    "kind": "DEX"
+  },
+  "b29d83c26cdd2a64959263abbcfc4a6937f0c9fccaf98580ca56faded65be244": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "b2bbf66df9b565f2004a62fff3bfd21143728d6a5b7b1f8749942b44406a35a3": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "b2db7142fa83210a7d78d9c12ac49c043b3cbbd482224fea6e3da00aa5a5ae2d": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "b36979a2a2bfccfc9ebbacbc786c923dc7e92cc00cba5ec685fd5b3ce9490463": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b38014dab8d77f6acf93abf6ddd3441ce3be92ec66694bafc6ec1e575c834167": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b39d6dddedd16ed8a40ce0b1e6b43c92acf0ff3fa2fac081fb82ef1b915c17b4": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "b41402e33ca9c00b610ae96a0780de7ba0caaa10f50b11b8d54ad6f1f4e50ce5": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "b41ddae48744a4179c4d65525e2d0cf991acd9a3dcf7ca10a24602d3117c8484": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b4290c2a55cc042eb1bdbc0af4247eadec78b2b8a7df0ac1ecd281afa1142187": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b44f547f5f9e35513a35139a8f2381923ea3f861e6d8debcd5aaf077f2d3a39d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b4afb11d22a544653509b8bbcc07d2076006067eddf14618d7c2cb4499ad1686": {
+    "name": "Ferra",
+    "kind": "DEX"
+  },
+  "b4f25230ba74837d8299e92951306100c4a532e8c48cc3d8828abe9b91c8b274": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b52138bfce4e79d0d25c69b1d9dfe6ec81a821ed3ef03cdb1c077cb4ac9c9b9d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b5bec523c47f3dde01ffd1fb45bf3369e122ac31446fe925db2e7feb54f69219": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "b5d821af5d3d4d40f1f1890502d73e3d7f61edb75e664ff8e827fa01a006f39f": {
+    "name": "Cetus",
+    "kind": "Farming"
+  },
+  "b6ec861eec8c550269dc29a1662008a816ac4756df723af5103075b665e32e65": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "b717f942133a66d390f5114c42b79736e83decdc69d6ba6c8db106fcc1fbe6ef": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "b7afc47cb4c82bf3f3af8686da66455adc744d4e08548dc8ebf466836f76cba1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b7e4416296bb3629547b5a0ab24dec17851760eca393c58fb62edbab71c76fa2": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b8290daeb5204b3527cbc57637df55b12cc28d17ce08eadc910ae4cd8f9a695a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "b877fe150db8e9af55c399b4e49ba8afe658bd05317cb378c940344851125e9a": {
+    "name": "Interest Protocol",
+    "kind": "DeFi"
+  },
+  "b8d611f884732a45c7d51acbff9cf248983726263c78d74b18aa754039d4e61e": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "b92ae17938cde6d856ee39c686d4cfb968c94155e59e24520fbf60de38ebcd21": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "b97683b729200ea93ef1e3c6c42b69b095ed4ca64af9e7ee15c70198512283f8": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "b977b00649d3ab8950bcbbafb01fcf32e2e7718eb3133eff2e48c0cef04b1495": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "ba153169476e8c3114962261d1edc70de5ad9781b83cc617ecc8c1923191cae0": {
+    "name": "FlowX",
+    "kind": "AMM"
+  },
+  "ba7e740c3c002673dbe69ad5fbdb0691ec260170e141297cefb982e7081fde52": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "bbd1d9f1a3cd6079921323ef31b5f53ae957d149d1b36843631047874a36a1c1": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "bd147bc7f12f38f175d78947a61364e8e077b9b188b00e7094bc0c3623162196": {
+    "name": "Typus",
+    "kind": "NFT"
+  },
+  "bd15ef362817274de6e237a50661ff331744a16993f19a26642a74174adec7bb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "bd63384b94d047a62e82c42f0566a04e52dd58f80266f84d8ab1164e970e0282": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "bdbc137f9d41cce42ed8d422b0a520ff4b87618558cf497ef88fb54d381b9c65": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "be21a06129308e0495431d12286127897aff07a8ade3970495a4404d97f9eaaa": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "beb32dee947006e0c22374d11af3fec2af862d380dea69488939dc4398d3daa9": {
+    "name": "Cetus",
+    "kind": "DCA"
+  },
+  "bed073f6fac85eaef22076e1dc2320ebec6a1ad4642716752d2354d24c72b2a6": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "bef015f8fe24f324cc4a7939a88c164e78d2d859aa925a75bd8f8472b6ae7d0e": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "bef7fdbfbed261f6faa5c31501165e9730fd2f638a00363aa88c220f347f5e1c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "bf0ef78096a5afb790ef1a532a392e45362e8f25595cecd3626c370807bd7dba": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c04425c5585e7d0a7e49f1265983e4303180216880179cccfc894afa8afe6d50": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "c263060d3cbb4155057f0010f92f63ca56d5121c298d01f7a33607342ec299b0": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "c2cc4384e21a43f04f1619f43154504dd6859334d0a0f94c34fc6e052dc39657": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c2cfa18b841df1887d931055cf41f2773c58164f719675595d020829893188a5": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "c33c3e937e5aa2009cc0c3fdb3f345a0c3193d4ee663ffc601fe8b894fbc4ba6": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "c3a75ca33a173f983de7448b3675ed5cc71d239e2633481dc9abfc3aadb4aa86": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c40b43f0aa4ba5a4d71e39770265d3698d0e6dcfd846b7d7c443207f4e919e04": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "c41dca0f7de9e155862521e4d73386e2a45049c5c3c3fa6033525473fa6c634d": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "c427209145715a00a93d7e674a95c556a7147d79fda1bbaeb1a1cac5f9923966": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c47d3016b34748859e6015bfccc5cddb38ac415918980522c9668f1769b8db67": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "c4808fe7296f41f30c3d226966d6303a84ad4c39ffa9301ca08fe5ab09a70a8d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c4a39032c1d7e4c781eb6a8d109ff003c0efa497c06ece5061416136d5289d78": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "c5ddc4e585f1672360b400df75e285141a97fa3dedb21df78a8703b6489dfa9d": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "c6faf3703b0e8ba9ed06b7851134bbbe7565eb35ff823fd78432baa4cbeaa12e": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "c84b1ef2ac2ba5c3018e2b8c956ba5d0391e0e46d1daa1926d5a99a6a42526b4": {
+    "name": "Momentum",
+    "kind": "CLMM"
+  },
+  "c895342d87127c9c67b76c8ad7f9a22b8bfe1dcdc2c5af82bd85266783115e31": {
+    "name": "Ferra",
+    "kind": "CLMM"
+  },
+  "c8daf508cdd524fc8a8a9db0b579e7e97562478cfc2fd148413007f5fdda227a": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "c8f877049eec01e144fa1957107e3800e757ece9bc7bfde7ecea4e9ae6122990": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c94dbcdacff2bf1b140126e55c5ac0c052a0878ffcc39548d17ab4f44c937d4f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c96238a68b5bf39b5fcd2638030f37222b469f8f1ca49379181e0209c01bbed7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "c9ad0b39c3e10e7aeae74fc88af72d9594784e673d023b69a88b13b37d7a8bac": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "caad7e0571b0bd9695b5dafde08ee190885e530442895f2378c26ad4243d6009": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "caf6ba059d539a97646d47f0b9ddf843e138d215e2a12ca1f4585d386f7aec3a": {
+    "name": "DeepBook",
+    "kind": "CLOB"
+  },
+  "cb1ae527a9ead4039ddd86d1436600e0d38092c79ee4d75b96cfdb5dec1d076e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "cb9d03544b5cc1fc40134698df0238d2779bb39482ab1432441045b5ac3dd328": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "cca4b6c6649da47c677d16dc7f3e4539a43c86d3a0dd391b68403434a4200134": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "cec352932edc6663a118e8d64ed54da6b8107e8719603bf728f80717592cd9e8": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "ceddbccc7c674aba60f97104bbe218c59c84f6099d5692a35ec390c5c2dd1131": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "cf60a40f45d46fc1e828871a647c1e25a0915dec860d2662eb10fdb382c3c1d1": {
+    "name": "Momentum",
+    "kind": "CLMM"
+  },
+  "cf7a8dbd219172a001a862af48735a099c330c641841f014e9eab77c200c2151": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "d0234eb6b6f95f057f1b3f47ab2d6bf35754867e1554681392e4aaa60666e97f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d02e49d7227d497d73ee5f71c0a35f78c2a24bff66145fb0935772fc53b393b4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d0468b55d762e51b07ea105695a9fc278f09859f6362c9cd824fe9b9c0fb54f7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d075d51486df71e750872b4edf82ea3409fda397ceecc0b6aedf573d923c54a0": {
+    "name": "Suiswap",
+    "kind": "DEX"
+  },
+  "d166f9334bfe8b4d271684cbe4b6c96cc91dea28b38465abd843a9c536dc2d4d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d16e1a497e27f9d1f25cbb82c836888d411811afdf5bff9ebf81afdefd340184": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d2be785b22352b2a9f42f62408c18180ec5c65989e0ab4f10e2e3e5d712486a9": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "d32562714f75525802377f6314736f41b01e1da29d894b7cdaf97356e8a226da": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "d3453d9be7e35efe222f78a810bb3af1859fd1600926afced8b4936d825c9a05": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "d43348b8879c1457f882b02555ba862f2bc87bcc31b16294ca14a82f608875d2": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "d48e7cdc9e92bec69ce3baa75578010458a0c5b2733d661a84971e8cef6806bc": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "d48e8bc83915d028301ddf48e3aef0aa1ecf3809c7be30ec53e4a222548bdd2e": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "d50166d3f383236bdafca7da9d602a238f98e9c5039e01d911008b2818057644": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "d50ea488da2b586c3db4e8ad805e9f8aa4891d315d6fc53517d662c3f6fd1b4c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d57231218f7792fbcc0829750c64b4a81ddaa03dd65479767ce60e239ca12d77": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "d672e2d401624c7bec6ff69ee23da15dce19e73434db2ef16aa7698980497551": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d710ac70d250898a30b752cfae6812d0666b792453729a03a81e150762cff38f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d7fb78f3d8db2d5122d61b001e0692e83a215855177e5c1dc2b32c3d6fffbbbc": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "d8d2601f4a787e732d1e8f017b2bb6b613e4ab2f683ced63296d9e81786d886f": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "d8d2996c9b53f25d796e25e934cc1064f264c652cf4d3c6e45f1ca2fef50b626": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d8fd366b0f6ea2d0e5adc217c72398b4116435ccded740c86a0fab05dc28da5d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d934f7b0ed399afa75929369a56ee08d2ffc4936492168e9e7a459ae5df3c533": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d95d83e5fdef4a5c042270e4a97e1284658bf0057f00f4989f9c13f56b7afed4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d9965c09d5ad7d69306b7c550b3b135d94b34f98c3adc379a7333fff2f05808b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d9bb5396b4eb49296eb380c0e8b53507372479dd5402ba6c1e3b16f3f31ad576": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "d9f9b0b4f35276eecd1eea6985bfabe2a2bbd5575f9adb9162ccbdb4ddebde7f": {
+    "name": "BlueMove",
+    "kind": "Token"
+  },
+  "da28513674c1e461556b57c2f2e4f15c5e654b4accf802bdfaab7dbd2739fa16": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "dabf44216fde17e7dfb42cab74388892009416a641b5b68c32c3fd0d67d26a81": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "dae28ab9ab072c647c4e8f2057a8f17dcc4847e42d6a8258df4b376ae183c872": {
+    "name": "Dipcoin",
+    "kind": "Token"
+  },
+  "db3b21c139e846285cbb2ad781758ab0320ffad8984e363913b4342286c6f110": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "db5cd62a06c79695bfc9982eb08534706d3752fe123b48e0144f480209b3117f": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "db674006027402dda2a8a7fa1069c0f12c55290d361f2449769730a7a1fd89b6": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "db88366825e11a3b4875892f3186ba74dff804a68f9f7f95b3faafab0796e113": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "db974d2654a62bb0668f58ee7919b5e41566a6c3336c3a006a412d5137487c67": {
+    "name": "Cetus",
+    "kind": "DLMM"
+  },
+  "dbec0babaefa47d91655a5ab53abf5236233ba639f55da013a6d03f2ec53eacd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "dc0794d74ea9fa1b0439e3ae1f72b061431830649874843e26a15d5b9862f54e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "dc41171a88b8a0cd36d9abeeb9255208e08c054070032d1209f65f433ef20dbb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "dc5202c8d038f9a2e4cefbe964f7727c2a30225ec962dab00cd1947da1fe37b8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "dc67d6de3f00051c505da10d8f6fbab3b3ec21ec65f0dc22a2f36c13fc102110": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "dc9e08d7e22bbd3d1364d0b117a04c252d31080d8da18e362ee4cbf6f46e15e6": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "dd45037f3f99cb2e43b94599777c50db5f8c44b6657ed1d2f9b227115d29edef": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "dd5ae6b16f1190c9b02b1dba9853edd65ce200332836c0fe63fddb079db7e224": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "dd938a4d0517782f1d7ca474707fe2fdecca6f89fdb5ab54e0062c513fe5e3e2": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "de5d696a79714ca5cb910b9aed99d41f67353abb00715ceaeb0663d57ee39640": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "de9493877a76b518d770a0cad0eaa53d8237a9c274dc2ca7b964609f8f0dd003": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "deeb7a4662eec9f2f3def03fb937a663dddaa2e215b8078a284d026b7946c270": {
+    "name": "DeepBook",
+    "kind": "Token"
+  },
+  "df7941d3e16085f0cc52b91ef4b24958d26e8eb3eb7058125aed4f89e32105cd": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "df7bad227d873a47f0f1e86676cabb163734b73f2351bdf0ebf9c6ef15469cef": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "dfaadf86be9af246900d1e3f3b996cf549e7948e662a9977bdd7646d8fa3a778": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "dfcac0610e134d98885744e0fb4b400c77b850abaf7ec4b372530e3661d9728e": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "e14c44b3778b33276e070d1442efdf0f49d6b4c9c23cf33654bb6374fa4571a4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e1a137080f82faaee1225a2ed93df19b52181d6a93fca26c30e3122de4033930": {
+    "name": "Cetus",
+    "kind": "Vault"
+  },
+  "e1b45a0e641b9955a20aa0ad1c1f4ad86aad8afb07296d4085e349a50e90bdca": {
+    "name": "Bluefin",
+    "kind": "Token"
+  },
+  "e272d379572e61b46e91d6484b68d6875f5b14d694edf76df185ddde73dafcab": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e27969a70f93034de9ce16e6ad661b480324574e68d15a64b513fd90eb2423e5": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e3170721605fd8feb12efc6a2e1e11992b2b4df9c69075834a32327ad0c9e49c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e383f0d29843ab5f9f38aa7a06d8b510a290653c4736a41e01f736ba468f6fd6": {
+    "name": "Magma",
+    "kind": "CLMM"
+  },
+  "e398b2101b3c039624f0d1aee1798fedae4a70afd107148fffa8aa0082950210": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e450c157978058fc23078941924ad91bfe3022db6243ffa432f7209ad5bc9889": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "e4da96f1c34f80f1d08b2c753400b96e35a8f2817942ed06dbb0d3b79fe3991a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e4f84f24a440e35903f8ae8991744af38f3b5c023954f5a7e18f6a4bdf5be3fd": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e4fb39428b1f9e5d6ef20dce6fefe5e8ae638a62cf056b3ce37a61f971263d0b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e684e3780fcb82a70c19937a1ef34b03db054dc0d8dc8f6f3980c3c42ae4b61b": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "e74104c66dd9f16b3096db2cc00300e556aa92edc871be4bc052b5dfb80db239": {
+    "name": "FullSail",
+    "kind": "CLMM"
+  },
+  "e7800ed42f3e464820f7009974f199ab8525c3ee2fcd5bdf9e99ba1adcebb74f": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "e7e34f69536bacd5cfbefb01e1050a1ffa1af28b5fa1e09df9a1852aa66a1e1f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e861377e806547370a7d219cb0f0eb7fa1d497607f2722352a47ed825b2a1db4": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "e8bb6571a837ff8b8e9a553299cde2b5c3f15655385a666a92147c2be8fc2401": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e8d04d7ed3aa2518bdc0648493dedfd51101b9e6183278242af450909ae980e1": {
+    "name": "FullSail",
+    "kind": "DEX"
+  },
+  "e8f996ea6ff38c557c253d3b93cfe2ebf393816487266786371aa4532a9229f2": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  },
+  "e934a9a08ddf130da4d6c52b1ea34850397f661c2d8a46e05d5d8a09ca065500": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "e9f6fd6d91a92ec5e54c67f87a37a1ecb0d12ea936d42e51a3fc001e19b43d52": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ea14501c603e8fcd907087d3aa7cb7adb4d7b3a7ea5e078cc9e8f05c67bc8034": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "eb018055af198e99a368ccda030e9aef07ffb86aa5de83e98734913064b0cff4": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ebc76bd2d9a00267d60629f598e0de0395ca158e8c4ca244d41f44cae144a7b7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ebcdf4eb948d38b4752df8e8f0ec7f165290ab0e88e217a3dacf68291df2fa7b": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "ebf7fee288d0586d893cbe05f8327c4519050afe4b1c08812099db6a8bc73fa7": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "ec2108d2092dd6f1f6fe45def639500e323596e0bab9fabc206461aadf357e6a": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "ec2cc88cc1ba1da7a936ece33417634e18618e6898e496a3493d8f58d97e705b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ec8f626d408bbd572ee42111462bd8dfa552cca529c1664d4009fccadf3164c0": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ecc3c28ff9b89bfc30cbfe348c4912e638e6edf89758d7bda9793fb553871730": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ecd737da1a3bdc7826dfda093bda6032f380b0e45265166c10b8041b125980b9": {
+    "name": "FullSail",
+    "kind": "CLMM"
+  },
+  "ed2b71968fb6b74c2161bad4c98561c28c69ce82df2cb3707c3b8bc947f2162d": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "ed62277c06c99419004179125edde888d599e5754b1db4c8fee45340d25a843b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ee17b7533c1067693296b3f7b53559fe7a8f3815999b13baa5a4225042914e0f": {
+    "name": "Haedal",
+    "kind": "Vault"
+  },
+  "ee235bc78354f9ae169aa94137402227a25585daac8612572a85337880665cd8": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ee47ce3b80a39e31cb310261eefbac3142a02de693d7e0425bda8612085b1d3d": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "ef93d67fcc27c416fa75368ffc6b8c1d8ef3e3d141710e82b88a292db340efae": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "effc8ae61f439bb34c9b905ff8f29ec56873dcedf81c7123ff2f1f67c45ec302": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "f06a88ef5b2b57a3d4426286312b9b93654b9dfb964e5f32d512cc9c01c51c90": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f07652ad237d56073502591840f0bbc46c665dca0ec88d172b1d0a22133440bb": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "f0ba0f41946081992325cbc52a73ded90aa969b868ce9f907dd60d5e7ad86980": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f0fe2210b4f0c4e3aff7ed147f14980cf14f1114c6ad8fd531ab748ccf33373b": {
+    "name": "BaySwap",
+    "kind": "Token"
+  },
+  "f150d58e8449027595b2e1ff39c94c6fefab64d133dd3f418ea9ea8c53df5ed7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f194e18ef2fea479a824cd7cca2a8ab74495c5873e7379b9fc34ffdd4fcca60a": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f1b90eb6e836feef6f3fb5690f1592e1474c1dd7a2a0e96dafd556ada33f1f3c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f1c574d526222c6ab4003b4d343a0ff0c3174a886ddd312ac72a8c26e39e644e": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "f1e4fae2183dabebc4827b0a46ddae9c0d0a6afa06a416e1f887a4ffd33f5067": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "f1eb0b9e7f12617fd18ca1d78a5d813fdf47da97864c352f2832f82552cd4449": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f1f6aad6635b667b3d659bce864dabf9cc7099f870ea078dc68fdcff7d81ef61": {
+    "name": "DeepBook",
+    "kind": "Lending"
+  },
+  "f2edbbda54d99f4aa292effafb63d6eacd17ff8e7fe63436c0629f84abd7ce87": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f3d4e23794911102fa1eecaf06ba90de2005147e5c8193edb21efe50bcb15d92": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f42a19014d8c18450efbc89f0541abd9cce8313cc9092016c458fef150c35c9c": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "f4474d09c50ae18907e540533f3ad6a76675fdcfb23bd0d1137f7665dafefc04": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "f4b39fbf705b56227798a6bf01d41620c7c5dcac86d3932e4e6b5d8af52a4938": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f4f9cb1af69b44abdcc43f68aad3fcbde27600d5019469f1759b3b200e8ca896": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "f54081a052d35027191bab1902034c57439e814ce96e3552f3d139585472686f": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f57be4b9f9036034b1c5484d299d8fb68d5f43862d6afe8886d67db293dfc4bc": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "f5c7e61fd28d1ed38711f03e1c5ffc6c5b8435eff386132fc5822efe6d90b138": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f61844d7e3313e920825308d2ce5e783e0a77b14d5c6f0f56170451c6e8c9088": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "f69185c5cda771cf7bd92b5f5e000c970dec25d0a4255407d9dcc9892239d709": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f6c05e2d9301e6e91dc6ab6c3ca918f7d55896e1f1edd64adc0e615cde27ebf1": {
+    "name": "Kriya",
+    "kind": "DEX"
+  },
+  "f717d45e884c23c3e137a975ae4c18f7345e36945051c6beea0e1521e842a39e": {
+    "name": "Cetus",
+    "kind": "CLMM"
+  },
+  "f71c0c20d3155b1770821b3a0dd6ef0d936de7750904cb17a29ed625305f9f0b": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f72eaa632ad23382cdae777241ec38625accc1b1a2b3f7ba15b60b5d2edcf7bb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f7338d805e8dd649bb2c183c4c4e928a0626ea3ee5171a1b35a5fc578f6b3159": {
+    "name": "STEAMM",
+    "kind": "AMM"
+  },
+  "f738ef67eb880f1c5e7122925e82c85be24ddb3075bdb464be6d4f015bb2a908": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f774736a3a55012439ae5c90d01ffa75240e7c35b06172d7c0f33a33873a026d": {
+    "name": "FlowX",
+    "kind": "DEX"
+  },
+  "f78a4ba0bda223149d138601a587d10f8ac9af68ec565d02d678da4060b709c3": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "f7ca99f9fd82da76083a52ab56d88aff15d039b76499b85db8b8bc4d4804584a": {
+    "name": "FullSail",
+    "kind": "CLMM"
+  },
+  "f7ef57f3bd98455262417886b17eb4d5af1a18d2dec19c5b34e512bf4fc10acf": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f80a6bb02d98cebf90a6476e8c106a4ddf1865ef79d6067a66933eb57b9f0f7b": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "f82dc05634970553615eef6112a1ac4fb7bf10272bf6cbe0f80ef44a6c489385": {
+    "name": "Typus",
+    "kind": "Token"
+  },
+  "f84c82986dad0b89731ced890226639c8c1859f5b61f12394548c48706bcf04c": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f8a91ddbdbb41dfa7423d231b64c9cb250afccb403760f5d7396a2324e90a1d8": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "f980a07d67e379e8d2fa4cfcb24a765df0fc2c09b70be12ff681dcfd6b2b56ac": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "f98ed029af555e4a103febf26243dc33ac09a7ea1b2da7e414c728b25b729086": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "f9c6f78322ed667909e05f6b42b2f5a67af6297503c905335e02a15148e9440d": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "f9dbba3cf7b6175c2ec8ff2c45f088e86a39d027c7c3f860f8dbdbb2555eb383": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "fb34ee252871013594c87a84bd2718d1603f3ee2503f075b9fbcdfc829b707f4": {
+    "name": "Cetus",
+    "kind": "Aggregator"
+  },
+  "fb73d0e67e6d670d121e1958ca6cd04f95e2f3318c7b73fefbffe9d0ed1ecadb": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "fbb32ac0fa89a3cb0c56c745b688c6d2a53ac8e43447119ad822763997ffb9c3": {
+    "name": "Cetus",
+    "kind": "DEX"
+  },
+  "fbdf925b067055a8a3ddac9739a56e61aea41f38345926b6034aa5645f5f7068": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "fc9b05223195de2f134c84c2299c5ff3f2b51725b8ba821f46975da1264ace73": {
+    "name": "Typus",
+    "kind": "Oracle"
+  },
+  "fca728ad0d6d2764254a60f8896b3cfd92971d7954bd32c173a8efc7f1b0e9db": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "fdabf3830225ee1e5c1474478eca54847a32b8c703f8b9c53c1f76465ccba29f": {
+    "name": "STEAMM",
+    "kind": "DEX"
+  },
+  "fe8728d90ac72ffafa42eba97b0153048c8a8836295c08181f59289f351c5ef7": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "feebc6d1ec2fc29467b40240ab1a23a9983464b18d0a16405ea313ea681247c3": {
+    "name": "STEAMM",
+    "kind": "Token"
+  },
+  "ff833c8378057598cb2a397a08ca22606a1aa5a46b76eb4aee0e657142baa45e": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ff994171188d52a5048624713bffc71fc02038f161b77cc9fe972bd13acc494d": {
+    "name": "Typus",
+    "kind": "Options"
+  },
+  "ffc18f74e4e8d115a5953c4b2f4b3527b80b271c171b6c4aba51276a8b0b2e52": {
+    "name": "7K Aggregator",
+    "kind": "Aggregator"
+  }
+}

@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# local SQLite cache (default lives in ~/.sui-net, but never commit one if present)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.sui-net/
+
+# build / logs / editor / OS
+dist/
+build/
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
