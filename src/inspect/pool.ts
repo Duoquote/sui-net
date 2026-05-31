@@ -76,6 +76,22 @@ function firstField(fields: Record<string, Plain>, keys: string[]): string | und
   return undefined;
 }
 
+/** Coin types inside a VecSet-like node ({ keys: { contents: [...] } }). */
+function vecSetTypes(node: Plain): string[] {
+  if (!node || typeof node !== 'object' || Array.isArray(node)) return [];
+  const ks = (node as Record<string, Plain>)['keys'];
+  const contents = ks && typeof ks === 'object' && !Array.isArray(ks) ? (ks as Record<string, Plain>)['contents'] : undefined;
+  return Array.isArray(contents) ? contents.filter((x): x is string => typeof x === 'string') : [];
+}
+
+/** For a lending market, the active supply + collateral asset coin types. */
+function lendingAssets(fields: Record<string, Plain>): { supply: string[]; collateral: string[] } | undefined {
+  const st = fields['asset_active_states'];
+  if (!st || typeof st !== 'object' || Array.isArray(st)) return undefined;
+  const s = st as Record<string, Plain>;
+  return { supply: vecSetTypes(s['base']), collateral: vecSetTypes(s['collateral']) };
+}
+
 /** Marginal price (coinB per coinA) from a Q64.64 sqrt price. */
 function priceFromSqrt(sqrt: string, decA: number, decB: number): number {
   const ratio = Number(BigInt(sqrt)) / 2 ** 64;
@@ -137,12 +153,14 @@ export async function inspectPool(
 
   const known = lookupKnown(pkg);
   const cls = classifyPool(type, fields);
+  const lending = cls.kind === 'Lending' ? lendingAssets(fields) : undefined;
 
   // JSON mode: emit a structured summary.
   if (opts.json) {
     const out: Record<string, unknown> = {
       poolId: id, type, protocol: known?.name, kind: cls.kind, kindDetail: cls.detail,
       coinA, coinB, reserves, sqrtPrice: sqrt, liquidity,
+      assets: lending,
     };
     console.log(JSON.stringify(out, null, 2));
     return;
@@ -153,6 +171,34 @@ export async function inspectPool(
   console.log('  ' + dim('protocol: ') + (known ? c.green(known.name) : dim('unknown ' + pkg.slice(0, 10) + '…')));
   console.log('  ' + dim('kind:     ') + c.yellow(cls.kind) + dim(' — ' + cls.detail));
   console.log('  ' + dim('type:     ') + shortType(type));
+
+  // Lending market: list the per-asset markets instead of an AMM pair view.
+  if (lending) {
+    const shortCoin = (t: string) => t.split('::').slice(-2).join('::');
+    const all = [...new Set([...lending.supply, ...lending.collateral])];
+    const sym = new Map<string, string>();
+    await Promise.all(all.map(async (t) => sym.set(t, (await coins.meta(t)).symbol)));
+    const collat = new Set(lending.collateral);
+    console.log(
+      '\n' + c.bold('Asset markets') +
+        dim(` (${lending.supply.length} lendable, ${lending.collateral.length} collateral)`),
+    );
+    for (const t of lending.supply) {
+      const tag = collat.has(t) ? dim(' · collateral') : '';
+      console.log('  ' + (sym.get(t) ?? '?').padEnd(10) + dim(shortCoin(t)) + tag);
+    }
+    for (const t of lending.collateral.filter((t) => !lending.supply.includes(t))) {
+      console.log('  ' + (sym.get(t) ?? '?').padEnd(10) + dim(shortCoin(t)) + dim(' · collateral only'));
+    }
+    console.log(
+      '\n' + dim('per-asset reserves, interest and risk parameters are stored in this object’s tables (dynamic fields)'),
+    );
+    const df = await sui.listDynamicFields(id);
+    const n = (df.dynamicFields ?? []).length;
+    const more = df.nextPageToken ? '+' : '';
+    console.log(dim(`dynamic fields on this object: ${n}${more}`) + (n ? dim(' — use `fields ' + id + '`') : ''));
+    return;
+  }
 
   // Coins + reserves.
   const ma = coinA ? await coins.meta(coinA) : { symbol: '?', decimals: 0 };

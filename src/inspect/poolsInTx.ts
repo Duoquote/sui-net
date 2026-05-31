@@ -16,8 +16,9 @@ interface RawObject {
   objectType?: string;
 }
 
-// Struct names that denote a tradeable pool/pair (excludes Registry/Config/etc.).
-const POOL_STRUCTS = new Set(['Pool', 'LBPair', 'Pair']);
+// Struct names that denote a tradeable venue (excludes Registry/Config/etc.):
+// DEX pools/pairs plus lending money markets (Scallop/Suilend-style).
+const POOL_STRUCTS = new Set(['Pool', 'LBPair', 'Pair', 'TradingPair', 'Market', 'LendingMarket']);
 
 function poolStructName(type: string): string {
   return type.split('<')[0]!.split('::').pop() ?? '';

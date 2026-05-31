@@ -16,6 +16,14 @@ const OUT = join(import.meta.dir, '..', 'src', 'registry', 'packages.json');
 
 interface Entry { name: string; kind: string; }
 
+// Some dumps are single-protocol exports whose per-asset labels (e.g. Scallop's
+// market coins "sCETUS"/"sHAEDAL") collide with other protocols' substrings. For
+// those files the protocol is fixed by the filename and the label only informs
+// the category. Entries from a forced file are authoritative (they override).
+const FILE_PROTOCOL: Record<string, string> = {
+  'scallop.txt': 'Scallop',
+};
+
 // Map a raw explorer label to a protocol. Returns null to skip unrecognized labels.
 function protocolOf(label: string): string | null {
   const l = label.toLowerCase();
@@ -41,6 +49,7 @@ function protocolOf(label: string): string | null {
   if (has('@haedal') || has('haedal')) return 'Haedal';
   if (has('dipcoin')) return 'Dipcoin';
   if (has('bluefin')) return 'Bluefin';
+  if (has('obric')) return 'Obric';
   return null;
 }
 
@@ -48,6 +57,17 @@ function protocolOf(label: string): string | null {
 function kindOf(label: string, name: string): string {
   const l = label.toLowerCase();
   const has = (s: string) => l.includes(s);
+  // Scallop (lending) has its own taxonomy: a central market + per-asset sCoins,
+  // an oracle, vote-escrow (veSCA), borrow incentives, and helper libraries.
+  if (name === 'Scallop') {
+    if (has('incentive')) return 'Farming';
+    if (has('oracle') || has('pyth') || has('adapter')) return 'Oracle';
+    if (has('lending') || has('margin')) return 'Lending';
+    if (has('vesca') || has('escrow') || has('vote')) return 'veToken';
+    if (has('registry') || has('whitelist') || has('query') || has('math') || has('utilit')) return 'Library';
+    if (has('coin') || /(^|\s)s[A-Z0-9]/.test(label)) return 'Token';
+    return 'Lending';
+  }
   if (has('perps') || has('perp')) return 'Perps';
   if (has('dlmm')) return 'DLMM';
   if (has('clmm')) return 'CLMM';
@@ -64,7 +84,7 @@ function kindOf(label: string, name: string): string {
   if (has('token') || has('coin') || /\blp\b/.test(l) || has('btoken') || has('_lp') || name === 'FullSail' && l === 'sail') return 'Token';
   const def: Record<string, string> = {
     DeepBook: 'CLOB', Typus: 'Options', '7K Aggregator': 'Aggregator',
-    'Interest Protocol': 'DeFi', Haedal: 'LST',
+    'Interest Protocol': 'DeFi', Haedal: 'LST', Obric: 'Oracle AMM',
   };
   return def[name] ?? 'DEX';
 }
@@ -90,6 +110,7 @@ function main(): void {
 
   for (const file of files) {
     const text = readFileSync(join(DATA_DIR, file), 'utf8');
+    const forced = FILE_PROTOCOL[file];
     let m: RegExpExecArray | null;
     let prevEnd = 0;
     ADDR.lastIndex = 0;
@@ -99,11 +120,11 @@ function main(): void {
       const addr = m[0].toLowerCase();
       const bare = addr.slice(2);
       total++;
-      const name = protocolOf(label);
+      const name = forced ?? protocolOf(label);
       if (!name) { skipped++; continue; }
-      if (out[bare]) continue; // first label wins
+      if (out[bare] && !forced) continue; // first label wins; forced dumps override
+      if (!out[bare]) byName.set(name, (byName.get(name) ?? 0) + 1);
       out[bare] = { name, kind: kindOf(label, name) };
-      byName.set(name, (byName.get(name) ?? 0) + 1);
     }
   }
 

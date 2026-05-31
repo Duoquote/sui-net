@@ -16,6 +16,18 @@ export function classifyPool(type: string, fields: Record<string, Plain>): PoolK
   const balanceNested =
     fields['balance'] && typeof fields['balance'] === 'object' && !Array.isArray(fields['balance']);
 
+  // Lending money market (e.g. Scallop): a single object holds per-asset reserves
+  // with interest + risk models, not a swap curve and not a coin pair.
+  const vault = fields['vault'];
+  const vaultLending =
+    vault && typeof vault === 'object' && !Array.isArray(vault) &&
+    ['balance_sheets', 'market_coin_supplies', 'underlying_balances'].some((k) => k in vault);
+  const lendMarkers = ['borrow_dynamics', 'interest_models', 'risk_models', 'collateral_stats', 'reward_factors']
+    .filter((k) => keys.has(k)).length;
+  if (lendMarkers >= 2 || vaultLending) {
+    return { kind: 'Lending', detail: 'money market — per-asset supply/borrow reserves with interest & risk models' };
+  }
+
   // DLMM / Liquidity Book: discrete price bins.
   if (has('bin_step', 'bin_manager', 'active_id', 'bins', 'active_bin') || /lb_pair|LBPair/.test(type)) {
     return { kind: 'DLMM', detail: 'discretized liquidity bins (Liquidity Book)' };
@@ -27,9 +39,17 @@ export function classifyPool(type: string, fields: Record<string, Plain>): PoolK
   if (sqrt && ticks) return { kind: 'CLMM', detail: 'concentrated liquidity (Uniswap-v3 style sqrt price + ticks)' };
   if (sqrt) return { kind: 'CLMM-like', detail: 'sqrt-price based, no tick table observed' };
 
-  // Oracle-priced pools.
-  if (has('oracle_config', 'oracle_driven') || (/oracle/i.test(type) && has('feed_id', 'core_data'))) {
-    return { kind: 'Oracle AMM', detail: 'price sourced from an oracle' };
+  // Oracle-priced pools (including Pyth-AMM/PMM-style: Obric).
+  const pyth = has('x_price_id', 'y_price_id') || has('pyth_mode');
+  if (
+    has('oracle_config', 'oracle_driven') ||
+    (/oracle/i.test(type) && has('feed_id', 'core_data')) ||
+    pyth
+  ) {
+    return {
+      kind: 'Oracle AMM',
+      detail: pyth ? 'oracle-priced AMM (Pyth price feeds drive pricing)' : 'price sourced from an oracle',
+    };
   }
 
   // Stable swaps (amplified curve).

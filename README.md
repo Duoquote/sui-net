@@ -34,7 +34,7 @@ bun run src/cli.ts <command> [args] [flags]
 | Command | Description |
 | --- | --- |
 | `object <objectId>` | Any on-chain object + its parsed Move fields |
-| `pool <objectId>` | DEX pool summary: protocol, kind, reserves, spot price, fees |
+| `pool <objectId>` | Pool/market summary: DEX pool (protocol, kind, reserves, spot price, fees) or lending money market (asset list) |
 | `fields <parentId> [--limit N]` | Dynamic fields attached to an object, with decoded keys |
 | `deps <packageId>` | Cross-package dependency tree (the `use` graph) |
 | `package <packageId>` | Modules, structs, and function signatures |
@@ -115,9 +115,12 @@ bun run src/cli.ts decompile 0x93af8d29…b316eab jk::ca
   permanently; mutable objects use a TTL (`--cache-ttl`).
 - **Pool-kind classifier (`src/inspect/poolKind.ts`)** — determines a pool's
   mechanism structurally from its fields, independent of the registry, so even
-  unknown protocols are classified: **DLMM** (bins / `LBPair`), **CLMM**
-  (sqrt price + ticks), **Oracle AMM**, **Stable**, **AMM (quoter)** (reads the
-  STEAMM quoter type), and constant-product **AMM**.
+  unknown protocols are classified: **Lending** (money market — per-asset
+  reserves with interest/risk models, e.g. Scallop), **DLMM** (bins / `LBPair`),
+  **CLMM** (sqrt price + ticks), **Oracle AMM**, **Stable**, **AMM (quoter)**
+  (reads the STEAMM quoter type), and constant-product **AMM**. Lending markets
+  render their list of supported assets (lendable + collateral) rather than a
+  swap pair.
 - **Bytecode (`src/bytecode/`)** — `@mysten/move-bytecode-template` (WASM)
   deserializes module bytecode; from there we resolve dependencies, disassemble
   instructions, and decompile to source-like Move.
@@ -145,6 +148,11 @@ bun run scripts/build-registry.ts
 
 The parser extracts every `0x`+64-hex address with its preceding label, maps the
 label to a protocol + category, and rewrites `packages.json`.
+
+Some exports are single-protocol dumps whose per-asset labels collide with other
+protocols' names (e.g. Scallop's market coins `sCETUS`/`sHAEDAL` would otherwise
+match Cetus/Haedal). For those, add the file to `FILE_PROTOCOL` in the script so
+the protocol is fixed by filename and the label only decides the category.
 
 ## Limitations
 
