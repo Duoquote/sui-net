@@ -15,3 +15,7 @@ build/
 Thumbs.db
 .idea/
 .vscode/
+
+# secrets (wallet key lives in /root/sui/.env, never commit)
+.env
+.env.*
