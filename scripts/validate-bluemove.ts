@@ -5,7 +5,7 @@ import { Transaction } from '@mysten/sui/transactions';
 import { SuiJsonRpcClient } from '@mysten/sui/jsonRpc';
 
 const RPC = 'http://127.0.0.1:9000';
-const SENDER = '0x6ff8394771d9ca2f0ebd795900cc4d5f1f421eea979f3f178a2e159a39dcd781';
+const SENDER = '0x6c0d08c59e029b5354c4f0e836e0de311f8117b57aecce41f364871ac123d257';
 const EXEC = '0xbeb249a2cb6f5de5a08e2837b47577dc8120cf7f053613b0119c3a16f6b98120';
 const DEX_INFO = '0x3f2d9f724f4a1ce5e71676448dc452be9a6243dac9c5b975a588c8c867066e92';
 const SUI = '0x2::sui::SUI';

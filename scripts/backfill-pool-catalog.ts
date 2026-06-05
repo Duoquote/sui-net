@@ -31,7 +31,14 @@ const PAGE = 50; // suix_queryEvents hard cap
 // is stable across runtime upgrades.
 type Dex = {
   protocol: string;
-  eventType: string;
+  // Non-generic creation event: filter by exact MoveEventType, coins from parsedJson fields.
+  eventType?: string;
+  // Generic creation event (e.g. DeepBook `pool::PoolCreated<Base,Quote>`): the coins live in the
+  // event TYPE's generic params, so we can't filter by a bare MoveEventType. Query by MoveEventModule
+  // and keep only events whose type starts with `<pkg>::<module>::<struct><`.
+  eventModule?: { package: string; module: string; struct: string };
+  // When set, parse coin_a/coin_b from the event type's generic params instead of parsedJson.
+  coinsFromType?: boolean;
   poolId: string;
   coinA: string | null;
   coinB: string | null;
@@ -67,6 +74,75 @@ const DEXES: Dex[] = [
     protocol: "kriya",
     eventType: "0xa0eba10b173538c8fecca1dff298e488402cc9ff374f8a12ca7758eebe830b66::spot_dex::PoolCreatedEvent",
     poolId: "pool_id", coinA: null, coinB: null,
+  },
+  // DeepBook V3 (CLOB): GENERIC event `pool::PoolCreated<Base,Quote>` — coins are in the event type's
+  // generic params (parsedJson has only scalars). Query by module, parse coins from the type.
+  {
+    protocol: "deepbook_v3",
+    eventModule: { package: "0x2c8d603bc51326b8c13cef9dd07031a408a48dddb541963357661df5d3204809", module: "pool", struct: "PoolCreated" },
+    coinsFromType: true,
+    poolId: "pool_id", coinA: null, coinB: null,
+  },
+  // FullSail CLMM: factory event carries the coin types.
+  {
+    protocol: "fullsail",
+    eventType: "0xe74104c66dd9f16b3096db2cc00300e556aa92edc871be4bc052b5dfb80db239::factory::CreatePoolEvent",
+    poolId: "pool_id", coinA: "coin_type_a", coinB: "coin_type_b",
+  },
+  // Magma CLMM (Cetus fork): identical `factory::CreatePoolEvent {pool_id, coin_type_a, coin_type_b}`.
+  {
+    protocol: "magma",
+    eventType: "0x4a35d3dfef55ed3631b7158544c6322a23bc434fe4fca1234cb680ce0505f82d::factory::CreatePoolEvent",
+    poolId: "pool_id", coinA: "coin_type_a", coinB: "coin_type_b",
+  },
+  // Ferra DLMM: `lb_factory::CreatePairEvent`, pool id is `pair_id`, coins in the event.
+  {
+    protocol: "ferra",
+    eventType: "0x5a5c1d10e4782dbbdec3eb8327ede04bd078b294b97cfdba447b11b846b383ac::lb_factory::CreatePairEvent",
+    poolId: "pair_id", coinA: "coin_type_a", coinB: "coin_type_b",
+  },
+  // DipCoin AMM: coinless event, pool id is `pool_address` → resolve coins from the pool object.
+  {
+    protocol: "dipcoin",
+    eventType: "0xdae28ab9ab072c647c4e8f2057a8f17dcc4847e42d6a8258df4b376ae183c872::event::OperatorCreatePoolEvent",
+    poolId: "pool_address", coinA: null, coinB: null,
+  },
+  // PairAMM (UniV2 fork): `factory::PairCreated {pair, token0.name, token1.name}`.
+  {
+    protocol: "pairamm",
+    eventType: "0xbfac5e1c6bf6ef29b12f7723857695fd2f4da9a11a7d88162c15e9124c243a4a::factory::PairCreated",
+    poolId: "pair", coinA: "token0.name", coinB: "token1.name",
+  },
+  // LBM Liquidity-Book DLMM (0x5664f9d3): `registry::CreatePoolEvent {pool_id, coin_type_a, coin_type_b}`.
+  {
+    protocol: "lbm",
+    eventType: "0x5664f9d3fd82c84023870cfbda8ea84e14c8dd56ce557ad2116e0668581a682b::registry::CreatePoolEvent",
+    poolId: "pool_id", coinA: "coin_type_a", coinB: "coin_type_b",
+  },
+  // BlueMove constant-product AMM: `swap::Created_Pool_Event` carries the coin type NAMES (no 0x,
+  // canonCoin re-prefixes). The separate `stable_swap` AMM is out of adapter scope, so only the
+  // `swap::Pool` venue is seeded here.
+  {
+    protocol: "bluemove",
+    eventType: "0xb24b6789e088b876afabca733bed2299fbc9e2d6369be4d1acfa17d8145454d9::swap::Created_Pool_Event",
+    poolId: "pool_id", coinA: "token_x_name", coinB: "token_y_name",
+  },
+  // Obric V2 oracle-PMM: `oracle_driven_pool::AddPoolEvent` carries base/quote coin NAMES. This is the
+  // 0xa0e3b011 `oracle_driven_pool::Pool` contract competitors actually arb (distinct from the older
+  // 0xb84e63d2 `v2::TradingPair` our legacy adapter modelled).
+  {
+    protocol: "obric_v2",
+    eventType: "0xa0e3b011012b80af4957afa30e556486eb3da0a7d96eeb733cf16ccd3aec32e0::oracle_driven_pool::AddPoolEvent",
+    poolId: "pool_id", coinA: "base_coin_type", coinB: "quote_coin_type",
+  },
+  // Aftermath AMM: `events::CreatedPoolEvent` carries the full `coins` array (canonical type strings,
+  // no 0x). We seed the DOMINANT pair (coins[0]/coins[1]) — matching the adapter's coin_a/coin_b; the
+  // full coin set is recovered from the pool object's `type_names` at parse. (Pool<LP> has no coins in
+  // its Move generics, so `coinsFromType` can't be used — the coins live in the event/field.)
+  {
+    protocol: "aftermath",
+    eventType: "0xefe170ec0be4d762196bedecd7a065816576198a6527c99282a2551aaa7da38c::events::CreatedPoolEvent",
+    poolId: "pool_id", coinA: "coins.0", coinB: "coins.1",
   },
 ];
 
@@ -168,16 +244,31 @@ async function main() {
       }
     };
 
+    // Filter (MoveEventType for non-generic, MoveEventModule for generic). For a generic event we
+    // also keep only the matching struct prefix `<pkg>::<module>::<struct><`.
+    const filter = dex.eventModule
+      ? { MoveEventModule: { package: dex.eventModule.package, module: dex.eventModule.module } }
+      : { MoveEventType: dex.eventType };
+    const typePrefix = dex.eventModule
+      ? `${dex.eventModule.package}::${dex.eventModule.module}::${dex.eventModule.struct}<`
+      : null;
     for (;;) {
       const res = await rpc("suix_queryEvents", [
-        { MoveEventType: dex.eventType }, cursor, PAGE, false, // ascending → stable cursor walk
+        filter, cursor, PAGE, false, // ascending → stable cursor walk
       ]);
       for (const e of res?.data ?? []) {
+        if (typePrefix && !e.type?.startsWith(typePrefix)) continue;
         const pj = e.parsedJson ?? {};
         const pid: string = dotGet(pj, dex.poolId);
         if (!pid || seen.has(pid)) continue;
         seen.add(pid);
-        if (dex.coinA && dex.coinB) {
+        if (dex.coinsFromType) {
+          // Coins are the event type's generic params: `...::Struct<A, B>`.
+          const lt = e.type.indexOf("<"), gt = e.type.lastIndexOf(">");
+          const cs = lt >= 0 && gt >= 0 ? splitGenerics(e.type.slice(lt + 1, gt)) : [];
+          const a = canonCoin((cs[0] ?? "").trim()), b = canonCoin((cs[1] ?? "").trim());
+          if (a && b) emit(pid, a, b);
+        } else if (dex.coinA && dex.coinB) {
           const a = canonCoin(dotGet(pj, dex.coinA)), b = canonCoin(dotGet(pj, dex.coinB));
           if (a && b) emit(pid, a, b);
         } else {
@@ -195,6 +286,51 @@ async function main() {
     totals[dex.protocol] = added;
     writeFileSync(cursorPath, JSON.stringify(cursors, null, 1));
     console.log(`${dex.protocol}: +${added} pools  (catalog ${seen.size}, rpc ${rpcCalls})`);
+  }
+
+  // STEAMM: special two-pass. Its pool event (`events::Event<pool::NewPoolResult>`) names coins as
+  // bTokens (b_sui, b_usdc …), but the node indexes STEAMM by the UNDERLYING coins — so first build a
+  // bToken→underlying map from the bank events (`events::Event<bank::NewBankEvent>`, which carry both),
+  // then translate each pool's bTokens. Only `cpmm::CpQuoter` pools are tradeable by our adapter.
+  if (ONLY.length === 0 || ONLY.includes("steamm")) {
+    const SP = "0x4fb1cf45dffd6230305f1d269dd1816678cc8e3ba0b747a813a556921219f261";
+    const bankEvt = `${SP}::events::Event<${SP}::bank::NewBankEvent>`;
+    const poolEvt = `${SP}::events::Event<${SP}::pool::NewPoolResult>`;
+    // Pass 1: bToken → underlying (banks are few; re-read fully each run).
+    const bmap = new Map<string, string>();
+    let bc: any = null;
+    for (;;) {
+      const r = await rpc("suix_queryEvents", [{ MoveEventType: bankEvt }, bc, PAGE, false]);
+      for (const e of r?.data ?? []) {
+        const ev = e.parsedJson?.event ?? {};
+        const bt = canonCoin(ev.btoken_type?.name), un = canonCoin(ev.coin_type?.name);
+        if (bt && un) bmap.set(bt, un);
+      }
+      bc = r?.nextCursor ?? bc;
+      if (!r?.hasNextPage) break;
+    }
+    // Pass 2: pools (resumable via cursor), translate bTokens → underlyings.
+    let added = 0, buf: string[] = [];
+    let cursor = cursors["steamm"] ?? null;
+    for (;;) {
+      const r = await rpc("suix_queryEvents", [{ MoveEventType: poolEvt }, cursor, PAGE, false]);
+      for (const e of r?.data ?? []) {
+        const ev = e.parsedJson?.event ?? {};
+        if (!String(ev.quoter_type?.name ?? "").includes("cpmm::CpQuoter")) continue; // only CpQuoter is tradeable
+        const pid = ev.pool_id;
+        if (!pid || seen.has(pid)) continue;
+        seen.add(pid);
+        const a = bmap.get(canonCoin(ev.coin_type_a?.name) ?? ""), b = bmap.get(canonCoin(ev.coin_type_b?.name) ?? "");
+        if (a && b) { buf.push(`steamm|${pid}|${a}|${b}\n`); added++; }
+      }
+      if (buf.length) { appendFileSync(catalogPath, buf.join("")); buf = []; }
+      cursor = r?.nextCursor ?? cursor;
+      cursors["steamm"] = cursor;
+      if (!r?.hasNextPage) break;
+    }
+    writeFileSync(cursorPath, JSON.stringify(cursors, null, 1));
+    totals["steamm"] = added;
+    console.log(`steamm: +${added} pools  (banks ${bmap.size}, catalog ${seen.size}, rpc ${rpcCalls})`);
   }
 
   const grand = Object.values(totals).reduce((a, b) => a + b, 0);

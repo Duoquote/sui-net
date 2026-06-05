@@ -1,7 +1,7 @@
 // Forensic over our wallet's last N hours: P&L, burn breakdown, biggest-burn tx.
 // Read-only; queries local fullnode JSON-RPC on :9000.
 const RPC = "http://127.0.0.1:9000";
-const WALLET = "0x6ff8394771d9ca2f0ebd795900cc4d5f1f421eea979f3f178a2e159a39dcd781";
+const WALLET = "0x6c0d08c59e029b5354c4f0e836e0de311f8117b57aecce41f364871ac123d257";
 const HOURS = Number(process.argv[2] ?? 6);
 const NOW = Date.now();
 const SINCE = NOW - HOURS * 3600_000;
